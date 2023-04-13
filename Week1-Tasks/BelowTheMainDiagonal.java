@@ -2,12 +2,11 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task13 {
+public class BelowTheMainDiagonal {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double avg =0,sum=0;
         Double[][] myArray = new Double[12][12];
-        int c = sc.nextInt();
         char operation = sc.next().charAt(0);
 
         for (int i=0;i<12;i++){
@@ -18,15 +17,19 @@ public class Task13 {
         switch (operation){
             case 'S':
                 for (int i=0;i<12;i++){
-                    sum += myArray[i][c];
+                    for (int j=0;j<i;j++){
+                        sum += myArray[i][j];
+                    }
                 }
                 System.out.printf("%.1f\n",sum);
                 break ;
             case 'M':
                 for (int i=0;i<12;i++){
-                    avg += myArray[i][c];
+                    for (int j=0;j<i;j++){
+                        avg += myArray[i][j];
+                    }
                 }
-                avg /=12;
+                avg /=66;
                 System.out.printf("%.1f\n",avg);
                 break ;
             default:

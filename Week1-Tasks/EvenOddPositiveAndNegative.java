@@ -3,7 +3,7 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task7 {
+public class EvenOddPositiveAndNegative {
     public static void main(String[] args){
         int oddNumbersCount=0,evenNumbersCount=0,negativeNumbersCount=0,positiveNumbersCount=0;
         Scanner sc = new Scanner(System.in);

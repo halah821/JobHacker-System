@@ -2,7 +2,7 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class DistanceBetweenTwoPoints {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double x1=sc.nextDouble();

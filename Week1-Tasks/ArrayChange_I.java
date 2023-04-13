@@ -2,7 +2,7 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task10 {
+public class ArrayChange_I {
     public static void main(String[] args) {
         int swapPosition=19,index=0;
         Scanner sc = new Scanner(System.in);

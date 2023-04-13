@@ -2,12 +2,12 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task12 {
+public class ColumnInArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double avg =0,sum=0;
         Double[][] myArray = new Double[12][12];
-        int l = sc.nextInt();
+        int c = sc.nextInt();
         char operation = sc.next().charAt(0);
 
         for (int i=0;i<12;i++){
@@ -18,21 +18,20 @@ public class Task12 {
         switch (operation){
             case 'S':
                 for (int i=0;i<12;i++){
-                    sum += myArray[l][i];
+                    sum += myArray[i][c];
                 }
                 System.out.printf("%.1f\n",sum);
-            break ;
+                break ;
             case 'M':
                 for (int i=0;i<12;i++){
-                    avg += myArray[l][i];
+                    avg += myArray[i][c];
                 }
                 avg /=12;
                 System.out.printf("%.1f\n",avg);
-            break ;
+                break ;
             default:
                 System.out.printf("please enter right choice S or M");
                 break;
         }
     }
-
 }

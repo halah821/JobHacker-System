@@ -2,7 +2,7 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Task8 {
+public class HighestAndPosition {
     public static void main(String[] args){
         int highestValue =0,inputPosition=0,index=0;
         Scanner sc = new Scanner(System.in);
