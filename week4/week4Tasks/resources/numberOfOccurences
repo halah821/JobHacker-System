@@ -1,0 +1,10 @@
+input :  hala my name is hala
+         hala
+
+output : 2
+
+input :  my name is sara
+         hala
+
+output : 0
+
