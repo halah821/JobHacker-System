@@ -1,8 +1,6 @@
-package com.pattern;
-
 import java.util.Scanner;
 
-public class SquareAndCubic {
+public class SquaredAndCubic {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

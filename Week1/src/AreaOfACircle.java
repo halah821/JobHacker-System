@@ -1,6 +1,7 @@
-package com.pattern;
-
 import java.util.Scanner;
+
+
+//https://www.beecrowd.com.br/judge/en/problems/view/1002
 
 public class AreaOfACircle {
     public static void main(String[] args){
@@ -11,3 +12,4 @@ public class AreaOfACircle {
         System.out.printf("A=%.4f\n",area);
     }
 }
+

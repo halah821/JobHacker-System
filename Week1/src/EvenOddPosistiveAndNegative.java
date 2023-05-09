@@ -1,9 +1,6 @@
-package com.pattern;
-
-
 import java.util.Scanner;
 
-public class EvenOddPositiveAndNegative {
+public class EvenOddPosistiveAndNegative {
     public static void main(String[] args){
         int oddNumbersCount=0,evenNumbersCount=0,negativeNumbersCount=0,positiveNumbersCount=0;
         Scanner sc = new Scanner(System.in);

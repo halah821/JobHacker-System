@@ -1,6 +1,7 @@
-package com.pattern;
-
 import java.util.Scanner;
+
+
+//https://www.beecrowd.com.br/judge/en/problems/view/1006
 
 public class Average2 {
     public static void main(String[] args) {

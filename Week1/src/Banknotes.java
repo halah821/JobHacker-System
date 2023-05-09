@@ -1,6 +1,6 @@
-package com.pattern;
-
 import java.util.Scanner;
+
+//https://www.beecrowd.com.br/judge/en/problems/view/1018
 
 public class Banknotes {
     public static void main(String[] args) {

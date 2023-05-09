@@ -1,6 +1,8 @@
-package com.pattern;
-
 import java.util.Scanner;
+
+
+//https://www.beecrowd.com.br/judge/en/problems/view/1177
+
 
 public class ArrayFill_II {
     public static void main(String[] args) {

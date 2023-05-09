@@ -1,12 +1,11 @@
-package com.pattern;
-
 import java.util.Scanner;
 
-public class BelowTheMainDiagonal {
+public class LineInArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double avg =0,sum=0;
         Double[][] myArray = new Double[12][12];
+        int l = sc.nextInt();
         char operation = sc.next().charAt(0);
 
         for (int i=0;i<12;i++){
@@ -17,24 +16,21 @@ public class BelowTheMainDiagonal {
         switch (operation){
             case 'S':
                 for (int i=0;i<12;i++){
-                    for (int j=0;j<i;j++){
-                        sum += myArray[i][j];
-                    }
+                    sum += myArray[l][i];
                 }
                 System.out.printf("%.1f\n",sum);
-                break ;
+            break ;
             case 'M':
                 for (int i=0;i<12;i++){
-                    for (int j=0;j<i;j++){
-                        avg += myArray[i][j];
-                    }
+                    avg += myArray[l][i];
                 }
-                avg /=66;
+                avg /=12;
                 System.out.printf("%.1f\n",avg);
-                break ;
+            break ;
             default:
                 System.out.printf("please enter right choice S or M");
                 break;
         }
     }
+
 }

@@ -1,5 +1,3 @@
-package com.pattern;
-
 import java.util.Scanner;
 
 public class Multiples {
