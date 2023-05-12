@@ -13,8 +13,10 @@ public class TwoSum {
         for (int i=0;i<myArray.length;i++){
             myArray[i]=sc.nextInt();
         }
-        System.out.println("target: ");
+        System.out.println("target: "); //target is a sum of two elements in the array, that you will return the index of them
         int target =sc.nextInt();
+        //assume that each input has exactly one solution
+        //I'll not use the same element twice.
         for (int i=0;i<myArray.length;i++){
             for (int j=i+1;j<myArray.length;j++){
                 if(target==myArray[i]+myArray[j]){

@@ -1,4 +1,4 @@
-package com.pattern;
+package tasks.week3;
 
 import java.util.Scanner;
 
