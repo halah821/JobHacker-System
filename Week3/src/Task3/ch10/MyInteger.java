@@ -1,4 +1,4 @@
-package Task3;
+package Task3.ch10;
 //(The MyInteger class) Design a class named MyInteger. The class contains:
 //        ■■ An int data field named value that stores the int value represented by
 //        this object.
@@ -29,6 +29,7 @@ public class MyInteger {
     public int getValue() {
         return value;
     }
+
     public boolean isEven(){
         if (value%2==0){
             return true;
@@ -37,6 +38,7 @@ public class MyInteger {
             return false;
         }
     }
+
     public boolean isOdd(){
         if (value%2!=0){
             return true;
@@ -62,75 +64,77 @@ public class MyInteger {
         return true;
     }
 
-    public static boolean isEven(int v){
-        if (v%2==0){
+    public static boolean isEven(int number){
+        if (number%2==0){
             return true;
         }
         else {
             return false;
         }
     }
-    public static boolean isOdd(int v){
-        if (v%2!=0){
+
+    public static boolean isOdd(int number){
+        if (number%2!=0){
             return true;
         }
         else {
             return false;
         }
     }
-    public static boolean isPrime(int v){
-        if (v <= 1) {
+    
+    public static boolean isPrime(int number){
+        if (number <= 1) {
             return false;
         }
-        for (int i = 2; i <= (v / 2); i++) {
-            if (v % i == 0) {
+        for (int i = 2; i <= (number / 2); i++) {
+            if (number % i == 0) {
                 return false;
             }
         }
         return true;
     }
 
-    public static boolean isEven(MyInteger v){
-        return v.isEven();
+    public static boolean isEven(MyInteger number){
+        return number.isEven();
     }
 
-    public static boolean isOdd(MyInteger v){
-        return v.isOdd();
+    public static boolean isOdd(MyInteger number){
+        return number.isOdd();
     }
 
-    public static boolean isPrime(MyInteger v){
+    public static boolean isPrime(MyInteger number){
 
-        return v.isPrime();
+        return number.isPrime();
     }
 
-    public boolean equals(int v){
-       Integer x= (Integer) v;
+    public boolean equals(int number){
+       Integer x= (Integer) number;
         return this.equals(x);
     }
 
-    public boolean equals(MyInteger v){
-        return this.equals(v);
+    public boolean equals(MyInteger number){
+        return this.equals(number);
     }
 
     public static int parseInt(char[] c){
-        int v=0;
+        int number=0;
         int digit = 10;
         // multiply by multiples of ten to get the right value
         //from left to right
         for(int i=0;i<c.length;i++){
-            v+= c[i]*Math.pow(digit,c.length-i);
+            number+= c[i]*Math.pow(digit,c.length-i);
         }
-        return v;
+        return number;
     }
 
     public static int parseInt(String str){
-        int v=0;
+        int number=0;
         int digit = 10;
         // multiply by multiples of ten to get the right value
         for(int i=0;i<str.length();i++){
-            v+= str.charAt(i)*Math.pow(digit,str.length()-i);
+            number+= str.charAt(i)*Math.pow(digit,str.length()-i);
         }
-        return v;
+        return number;
     }
 
 }

@@ -1,4 +1,4 @@
-package Task3;
+package Task3.ch9.Exercise2;
 //(The Stock class) Following the example of the Circle class in Section 9.2,
 //        design a class named Stock that contains:
 //        ■■ A string data field named symbol for the stock’s symbol.
@@ -15,14 +15,47 @@ package Task3;
 //        Corporation, and the previous closing price of 34.5. Set a new current price to
 //        34.35 and display the price-change percentage.
 public class Stock {
-    String symbol,name;
-    double previousClosingPrice,currentPrice;
+    private String symbol,name;
+    private double previousClosingPrice,currentPrice;
 
     public Stock(String symbol, String name) {
         this.symbol = symbol;
         this.name = name;
     }
-    double getChangePercent(){
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPreviousClosingPrice() {
+        return previousClosingPrice;
+    }
+
+    public void setPreviousClosingPrice(double previousClosingPrice) {
+        this.previousClosingPrice = previousClosingPrice;
+    }
+
+    public double getCurrentPrice() {
+        return currentPrice;
+    }
+
+    public void setCurrentPrice(double currentPrice) {
+        this.currentPrice = currentPrice;
+    }
+
+    public double getChangePercent(){
         return currentPrice-previousClosingPrice;
     }
 }

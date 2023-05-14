@@ -1,4 +1,4 @@
-package Task3.ch9.9.1;
+package Task3.ch9.Exercise1;
 
 //(The Rectangle class) Following the example of the Circle class in Section 9.2,
 //        design a class named Rectangle to represent a rectangle. The class contains:
@@ -13,18 +13,23 @@ package Task3.ch9.9.1;
 //        the other with width 3.5 and height 35.9. Display the width, height, area, and
 //        perimeter of each rectangle in this order.
 public class Rectangle {
-    double width,height;
+
+    private double width,height;
+
     Rectangle(){
         width=1;
         height=1;
     }
+
     Rectangle(double width, double height){
         this.width=width;
         this.height=height;
     }
+
     public double getArea(){
         return width*height;
     }
+
     public double getPerimeter(){
         return (width+height)*2;
     }

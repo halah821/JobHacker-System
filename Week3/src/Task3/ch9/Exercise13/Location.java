@@ -1,4 +1,4 @@
-package Task3;
+package Task3.ch9.Exercise13;
 
 //(The Location class) Design a class named Location for locating a maximal
 //        value and its location in a two-dimensional array. The class contains public data

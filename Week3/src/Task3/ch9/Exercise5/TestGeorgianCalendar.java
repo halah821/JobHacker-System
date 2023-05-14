@@ -1,4 +1,4 @@
-package Task3;
+package Task3.ch9.Exercise5;
 
 import java.util.GregorianCalendar;
 //(Use the GregorianCalendar class) Java API has the GregorianCalendar
@@ -27,7 +27,7 @@ public class TestGeorgianCalendar {
         System.out.println(
                 "Time elapsed since January 1, 1870 is: \n"+
                 "Year :" + gc.get(GregorianCalendar.YEAR)+
-                        " Month :" + gc.get(GregorianCalendar.MONTH)+
+                        " Month :" + gc.get(GregorianCalendar.MONTH)+   //I don't know why it returns last month every time :(
                         " Day :" +  gc.get(GregorianCalendar.DAY_OF_MONTH)
         );
     }

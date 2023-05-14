@@ -1,4 +1,4 @@
-package Task3;
+package Task3.ch9.Exercise6;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -17,7 +17,6 @@ public class StopWatch {
 
     StopWatch(){
         startTime =new Date();
-        endTime = new Date();
     }
 
     public Date getEndTime() {
@@ -39,14 +38,17 @@ public class StopWatch {
     public void start(){
         Date current = new Date();
         setStartTime(current);
+        System.out.println("Started");
     }
     public void stop(){
         Date current = new Date();
         setEndTime(current);
+        System.out.println("Stopped");
     }
     public long getElapsedTime(){
         long timeElapsed = endTime.getTime()-startTime.getTime();
-        return TimeUnit.MILLISECONDS.toSeconds(timeElapsed);
-        //return timeElapsed;
+
+        return timeElapsed;
+
     }
 }
