@@ -5,11 +5,11 @@ import java.util.Random;
 import java.util.UUID;
 
 public class Book {
-    private String title;
+   private String title;
    private String author_name;
    private String id;
    private Double version;
-   private Boolean isAvailable=true;
+   private Boolean available=true;
 
 
     public Book(String title, String author_name, Double version) {
@@ -38,8 +38,8 @@ public class Book {
         return version;
     }
 
-    public Boolean getAvailable() {
-        return isAvailable;
+    public Boolean isAvailable() {
+        return available;
     }
 
     public void setTitle(String title) {
@@ -59,11 +59,15 @@ public class Book {
     }
 
     public void setAvailable(Boolean available) {
-        isAvailable = available;
+        available = available;
     }
 
 
     public String getDetails(){
         return this.toString();
+    }
+
+    public String toString(){
+       return "{book: "+getTitle()+", Author:"+getAuthor_name()+", Version:"+getVersion()+"}";
     }
 }

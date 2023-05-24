@@ -57,7 +57,7 @@ public class Library {
 
     //user borrow A book
     public void checkoutBook(User user, Book book){
-        if(book !=null && book.getAvailable() && user!=null) {
+        if(book !=null && book.isAvailable() && user!=null) {
             user.checkoutBook(book);
         }
         else{
@@ -68,7 +68,7 @@ public class Library {
 
     //user return borrowed book
     public void returnBook(User user, Book book ){
-        if(book !=null && !book.getAvailable() && user!=null) {
+        if(book !=null && !book.isAvailable() && user!=null) {
             user.returnBook(book);
         }
         else {
@@ -101,7 +101,7 @@ public class Library {
     public ArrayList<Book> displayAvailableBooks(){
         ArrayList<Book> availableBooks = new ArrayList<Book>();
         for (Book book:books){
-            if (book.getAvailable() == true)
+            if (book.isAvailable() == true)
                 availableBooks.add(book);
         }
         return availableBooks;
@@ -111,7 +111,7 @@ public class Library {
     public  ArrayList<Book> displayBorrowedBooks(){
         ArrayList<Book> borrowedBooks = new ArrayList<Book>();
         for (Book book:books){
-            if (book.getAvailable() != true)
+            if (book.isAvailable() != true)
                 borrowedBooks.add(book);
         }
         return borrowedBooks;

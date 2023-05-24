@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.UUID;
@@ -105,13 +106,21 @@ public class LibraryApplication {
                 startApp();
                 break;
             case 7:
-                System.out.println("List of Available Books:");
-                library.displayAvailableBooks();
+                ArrayList<Book> availableBooks = library.displayAvailableBooks();
+                if(availableBooks.isEmpty()){
+                    System.out.println("No Books available,Please Add/Return some books");
+                }else {
+                    System.out.println("List of Available Books:");
+                    for (Book book : availableBooks) {
+                        System.out.println(book.getDetails());
+                    }
+                }
                 startApp();
                 break;
             case 8:
                 System.out.println("List of Borrowed Books:");
-                library.displayBorrowedBooks();
+                ArrayList<Book> borrowedBooks = library.displayBorrowedBooks();
+
                 startApp();
                 break;
             case 9:

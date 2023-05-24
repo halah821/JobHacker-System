@@ -2,27 +2,32 @@ import java.util.UUID;
 
 public class CheckoutBook {
 
-    String BorrowerId;
-    String BorrowedBookId;
+    String borrowerId;
+    String borrowedBookId;
     String checkoutId;
-    Boolean isReturned=true;
+    Boolean returned =true;
 
     public CheckoutBook(User borrower, Book borrowedBook) {
-        this.BorrowerId = borrower.getUserID();
-        this.BorrowedBookId = borrowedBook.getId();
+        getCheckoutInstance(borrower,borrowedBook);
+    }
+
+    public CheckoutBook getCheckoutInstance(User borrower, Book borrowedBook){
+        this.borrowerId = borrower.getUserID();
+        this.borrowedBookId = borrowedBook.getId();
         borrowedBook.setAvailable(false);
-        this.isReturned = false;
+        this.returned = false;
         if (checkoutId==null){
             setCheckoutId();
         }
+        return this;
     }
 
-    public Boolean getIsReturned() {
-        return isReturned;
+    public Boolean isReturned() {
+        return returned;
     }
 
-    public void setIsReturned(Boolean returned) {
-        this.isReturned = returned;
+    public void setReturned(Boolean returned) {
+        this.returned = returned;
     }
 
     public void setCheckoutId() {
@@ -30,11 +35,11 @@ public class CheckoutBook {
     }
 
     public void setBorrowerId(String borrowerId) {
-        BorrowerId = borrowerId;
+        this.borrowerId = borrowerId;
     }
 
     public void setBorrowedBookId(String borrowedBookId) {
-        BorrowedBookId = borrowedBookId;
+        this.borrowedBookId = borrowedBookId;
     }
 
     public String getCheckoutId() {
@@ -42,16 +47,16 @@ public class CheckoutBook {
     }
 
     public String getBorrowerId() {
-        return BorrowerId;
+        return borrowerId;
     }
 
     public String getBorrowedBookId() {
-        return BorrowedBookId;
+        return borrowedBookId;
     }
 
     public void returnBook(Book borrowedBook){
         borrowedBook.setAvailable(true);
-        this.setIsReturned(true);
+        this.setReturned(true);
     }
 
 }

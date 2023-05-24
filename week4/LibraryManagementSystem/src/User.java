@@ -41,7 +41,7 @@ public class User {
     }
     public void returnBook(Book book){
         for (CheckoutBook checkoutBook:checkouts){
-            if(checkoutBook.BorrowedBookId.equals(book.getId())){
+            if(checkoutBook.borrowedBookId.equals(book.getId())){
                 checkoutBook.returnBook(book);
             }
 
