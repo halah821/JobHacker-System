@@ -7,6 +7,10 @@ public class CheckIfPangram {
         System.out.println("please enter Statement: ");
         Scanner sc = new Scanner(System.in);
         String statement = sc.nextLine();
+
+        System.out.println(isPangram(statement));
+    }
+    public static boolean isPangram(String statement){
         char c ='a';
         while(c<='z'){
             if (statement.contains(Character.toString(c))){
@@ -14,11 +18,10 @@ public class CheckIfPangram {
                 continue;
             }else {
                 //"Not pangram"
-                System.out.println("false");
-                System.exit(0);
+                return false;
             }
         }
         //if you reach here without exiting the app then it is a Pangram
-        System.out.println("true");
+        return true;
     }
 }

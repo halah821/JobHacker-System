@@ -4,34 +4,35 @@ import java.util.ArrayList;
 
 public class Bank {
 
-    //Account[] accounts =new Account[3]; //Arrays has fixed size //require specific number of elements.
-    ArrayList<Account> accounts = new ArrayList<Account>();
+
+    ArrayList<Account> accounts = new ArrayList<>();
 
     public void addNewAccount(Account account){
+
         accounts.add(account);
     }
 
-    public void depositeIntoAccount(Integer accountNo,Double depositedAmount){
+    public void depositIntoAccount(String accountNo, Double depositedAmount){
         for (Account account:accounts){
-            if (account.getAccountNumber() == accountNo)
+            if (account.getAccountNumber().equals(accountNo))
             {
                 account.deposit(depositedAmount);
             }
         }
 
     }
-    public void withdrawFromAccount(Integer accountNo,Double withdrawedAmount){
+    public void withdrawFromAccount(String accountNo,Double withdrawAmount){
         for (Account account:accounts){
-            if (account.getAccountNumber() == accountNo)
+            if (account.getAccountNumber().equals(accountNo))
             {
-                account.withdraw(withdrawedAmount);
+                account.withdraw(withdrawAmount);
             }
         }
 
     }
-    public Double displayBalanceOfAccount(Integer accountNo){
+    public Double displayBalanceOfAccount(String accountNo){
         for (Account account:accounts){
-            if (account.getAccountNumber() == accountNo)
+            if (account.getAccountNumber().equals(accountNo))
             {
                 return account.getBalance();
             }
@@ -39,9 +40,9 @@ public class Bank {
         return null;
     }
 
-    public Double calculateInterestRateOfAccount(Integer accountNo){
+    public Double calculateInterestRateOfAccount(String accountNo){
         for (Account account:accounts){
-            if (account.getAccountNumber() == accountNo)
+            if (account.getAccountNumber().equals(accountNo))
             {
                 SavingsAccount savingsAccount=new SavingsAccount(account);
                 return savingsAccount.CalculateInterestRate(account);

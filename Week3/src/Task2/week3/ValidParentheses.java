@@ -1,65 +1,37 @@
 package Task2.week3;
 
 import java.util.Scanner;
-
-import static java.lang.System.exit;
+import java.util.Stack;
 
 public class ValidParentheses {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        StringBuffer token =  new StringBuffer();
-        token.append(sc.nextLine());
-        StringBuffer extraCloseBrackets=new StringBuffer(); //String contain extra close brackets that  has no open brackets
-        for (int i = 0; token.length()>0;) {
-            switch (token.charAt(i)) {
-                case '(':
-                    token.deleteCharAt(i);
-                    if (token.toString().contains(")")) {
-                        int index = token.indexOf(")");
-                        token.deleteCharAt(index);
-                    }
-                    else {
-                        System.out.println("False"); //invalid string and close App
-                        exit(0);
-                    }
-                break;
-                case '{':
-                    token.deleteCharAt(i);
-                    if (token.toString().contains("}")) {
-                        int index = token.indexOf("}");
-                        token.deleteCharAt(index);
-                    }
-                    else {
-                        System.out.println("false");  //invalid string and close App
-                        exit(0);
-                    }
-                    break;
-                case'[':
-                    token.deleteCharAt(i);
-                    if (token.toString().contains("]")) {
-                        int index = token.indexOf("]");
-                        token.deleteCharAt(index);
-                    }
-                    else {
-                        System.out.println("false"); //invalid string and close App
-                        exit(0);
-                    }
-                    break;
-                default:
-                    //save closed brackets to another String
-                    extraCloseBrackets.append( token.charAt(i));
-                    token.deleteCharAt(i);
-                    break;
-            }
-
-        }
-        if(extraCloseBrackets.length()>0){
-            System.out.println("false");
-        }
-        else {
-            System.out.println("true");
+        String token = new String();
+        token = sc.nextLine();
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < token.length(); i++) {
+            stack.push(token.charAt(i));
         }
 
+        System.out.println(isValid(stack));
     }
+
+        public static boolean isValid(Stack<Character> stack){
+            while (!stack.empty()){
+                Character braketOne = stack.pop();
+                Character braketTwo = stack.pop();
+                if (braketOne==']'&&braketTwo=='['){
+                    continue;
+                }else if (braketOne=='}'&&braketTwo=='{'){
+                    continue;
+                }else if(braketOne==')'&&braketTwo=='('){
+                    continue;
+                }else {
+                    return false;
+                }
+            }
+            return true;
+        }
 }

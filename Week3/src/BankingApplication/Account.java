@@ -1,26 +1,26 @@
 package BankingApplication;
 
 public class Account {
-    private  final Integer AccountNumber;
-    private String AccountHolderName;
+    private  final String accountNumber;
+    private String accountHolderName;
     private Double balance=0.0;
 
-    public Account(Integer accountNumber, String accountHolderName, Double balance) {
-        AccountNumber = accountNumber;
-        AccountHolderName = accountHolderName;
+    public Account(String accountNumber, String accountHolderName, Double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
         this.balance = balance;
     }
 
-    public Integer getAccountNumber() {
-        return AccountNumber;
+    public String getAccountNumber() {
+        return accountNumber;
     }
 
     public String getAccountHolderName() {
-        return AccountHolderName;
+        return accountHolderName;
     }
 
     public void setAccountHolderName(String accountHolderName) {
-        AccountHolderName = accountHolderName;
+        this.accountHolderName = accountHolderName;
     }
 
     public Double getBalance() {
@@ -36,9 +36,13 @@ public class Account {
         setBalance(newBalance);
     }
 
-    public void withdraw(Double withdrawedAmount){
-        Double newBalance = getBalance()-withdrawedAmount;
-        setBalance(newBalance);
+    public void withdraw(Double withdrawAmount){
+        if (this.getBalance().equals(0)) {
+            System.out.println("your Balance is 0.0");
+        }else {
+            Double newBalance = getBalance()-withdrawAmount;
+            setBalance(newBalance);
+        }
     }
 
 }

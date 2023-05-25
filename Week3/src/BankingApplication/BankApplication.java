@@ -36,7 +36,7 @@ public class BankApplication {
                 double myBalance =  sc.nextDouble();
                 Random rand = new Random();
                 Integer newAccountNumber = rand.nextInt(100);
-                Account myNewAccount = new Account(newAccountNumber,accountHolderName,myBalance);
+                Account myNewAccount = new Account(newAccountNumber.toString(),accountHolderName,myBalance);
                 bank.addNewAccount(myNewAccount);
                 System.out.println("your Bank Account Created with this account number:"+newAccountNumber);
                 startApp();
@@ -45,10 +45,10 @@ public class BankApplication {
             case 2:
 
                 System.out.println("please enter Account Number");
-                Integer accountNumber =sc.nextInt();
+                String accountNumber =sc.nextLine();
 
                 System.out.println("please choose transaction:");
-                System.out.println("- to deposite Into account Type A");
+                System.out.println("- to deposit Into account Type A");
                 System.out.println("- to withdrawFromAccount Type B");
                 System.out.println("- to display balance Type C");
                 System.out.println("- to calculateInterestRateOfAccount Type D");
@@ -57,18 +57,18 @@ public class BankApplication {
 
                 switch (transaction){
                     case 'A':
-                        System.out.println("please enter your deposite ");
+                        System.out.println("please enter your deposit ");
                         Double depositAmount =sc.nextDouble();
-                        bank.depositeIntoAccount(accountNumber,depositAmount);
+                        bank.depositIntoAccount(accountNumber,depositAmount);
                         System.out.println( depositAmount +"$ Added to your Balance");
                         startApp();
                         break;
 
                     case 'B':
                         System.out.println("please enter Amount to make withdrawal  ");
-                        Double withdawedAmount =sc.nextDouble();
-                        bank.withdrawFromAccount(accountNumber,withdawedAmount);
-                        System.out.println( withdawedAmount +"$ withdrawed from your Balance");
+                        Double withdrawAmount =sc.nextDouble();
+                        bank.withdrawFromAccount(accountNumber,withdrawAmount);
+                        System.out.println( withdrawAmount +"$ withdraw from your Balance");
                         startApp();
                         break;
 
