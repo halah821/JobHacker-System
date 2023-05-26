@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
 
 public class WordDictionary {
@@ -52,15 +53,19 @@ public class WordDictionary {
         System.out.println("enter the letter");
         Scanner sc =new Scanner(System.in);
         String s = sc.nextLine();
-        for ()
-        printWord(map,);
+        for (Alphabets letter: Alphabets.values()){
+            if(letter.name().equals(s)){
+                printWord(map,letter);
+            }
+        }
+
     }
-    public static void printAll(Map map){
-        for (Map.Entry<Alphabets,String> entry: map.entrySet()){
+    public static void printAll(Map<Alphabets,String> map){
+        for (Map.Entry entry: map.entrySet()){
             System.out.println(entry.getKey()+" "+entry.getValue());
         }
     }
     public static void printWord(Map map,Alphabets key){
-        System.out.println(map.get(key));
+        System.out.println(map.get(key).toString());
     }
 }
