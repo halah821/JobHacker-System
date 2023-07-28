@@ -137,6 +137,7 @@ Task3:  **Bounce**
  **Task2**: Check if a String is a Palindrome: Write a program that takes a String input from the user and checks if it is a Palindrome (a word or phrase that reads the same backward as forward).  
  
  **Task3:** [OOP-Task](https://docs.google.com/document/d/1TrZxPaMaJB9fpfW0dy5q92hJwnwWyhlL7-LBz0PhlQA/edit?usp=sharing) 
+ > -   Tasks:  [https://docs.google.com/document/d/1Cf2GD1_tTXYkmrTzHTCL7RGtYG9N_UeIFeSCMcVD7x0/edit](https://docs.google.com/document/d/1Cf2GD1_tTXYkmrTzHTCL7RGtYG9N_UeIFeSCMcVD7x0/edit)
  **Bonus**  
  **Task3**: write a program that print the number of occurrences of the given word in the string.  
  1. Perform the above task using only methods of the String class (Using 2 ways).
