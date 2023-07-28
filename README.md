@@ -191,3 +191,54 @@ Code Structure:
 - Make a function(readFromWebToFile) that will take a url and return a file. This method will read the data from the url and store it into the file named Scores.txt  
 - Make a function(getSum) that will take a file and return an integer value representing the sum of the values inside the file.  
  - Make a function (getAverage) that will take a file and return an integer value representing the average of the values inside the file.
+
+
+
+## week6
+In response to your request, we confirm that there are no new resources for Week 6. However,
+1-Please solve any problems regarding previous topics and tasks. If anyone has a problem, send a message in the chat for assistance.
+2-Study all the topics we took from the OCA & OCP Book and practice the questions at the end of each chapter.
+note:*  We will have an exam after completing the Java topics.
+
+## online Markdown Editor https://stackedit.io/
+
+
+
+
+## Week7   
+> **Java Collections:**
+>  
+> [Collection Framework](https://www.javatpoint.com/collections-in-java)  
+> [Java ArrayList](https://www.javatpoint.com/java-arraylist)  
+> [Java LinkedList](https://www.javatpoint.com/java-linkedlist)  
+> [ArrayList vs LinkedList](https://www.javatpoint.com/difference-between-arraylist-and-linkedlist)  
+> [Java List Interface](https://www.javatpoint.com/java-list)  
+> [Java HashSet](https://www.javatpoint.com/java-hashset)  
+> [Java LinkedHashSet](https://www.javatpoint.com/java-linkedhashset)  
+> [Java TreeSet](https://www.javatpoint.com/java-treeset)  
+> [Queue & PriorityQueue](https://www.javatpoint.com/java-priorityqueue)  
+> [Deque & ArrayDeque](https://www.javatpoint.com/java-deque-arraydeque)  
+> [Java Map Interface](https://www.javatpoint.com/java-map)  
+> [Java HashMap](https://www.javatpoint.com/java-hashmap)  
+> [Working of HashMap](https://www.javatpoint.com/working-of-hashmap-in-java)  
+> [Java LinkedHashMap](https://www.javatpoint.com/java-linkedhashmap)  
+> [Java TreeMap](https://www.javatpoint.com/java-treemap)  
+> [Java Hashtable](https://www.javatpoint.com/java-hashtable)  
+> [HashMap vs Hashtable](https://www.javatpoint.com/difference-between-hashmap-and-hashtable)  
+> [Java EnumSet](https://www.javatpoint.com/java-enumset)  
+> [Java EnumMap](https://www.javatpoint.com/java-enummap)  
+> [Collections class](https://www.javatpoint.com/java-collections-class)  
+> [Sorting Collections](https://www.javatpoint.com/Sorting-in-collection-framework)  
+> [Comparable interface](https://www.javatpoint.com/Comparable-interface-in-collection-framework)  
+> [Comparator interface](https://www.javatpoint.com/Comparator-interface-in-collection-framework)  
+> [Comparable vs Comparator](https://www.javatpoint.com/difference-between-comparable-and-comparator)  
+> [Properties class](https://www.javatpoint.com/properties-class-in-java)  
+> [ArrayList vs Vector](https://www.javatpoint.com/difference-between-arraylist-and-vector)  
+> [Java Vector](https://www.javatpoint.com/java-vector)  
+> [Java Stack](https://www.javatpoint.com/java-stack)  
+> [Java Collection Interface](https://www.javatpoint.com/java-collection)  
+> [Java Iterator Interface](https://www.javatpoint.com/java-iterator)  
+> [Java Deque Interface](https://www.javatpoint.com/java-deque)  
+> [Java ConcurrentHashMap](https://www.javatpoint.com/java-concurrenthashmap)  
+> [Java ConcurrentLinkedQueue](https://www.javatpoint.com/java-concurrentlinkedqueue)  
+> [Collection Quiz-1](https://www.javatpoint.com/directload.jsp?val=92)
