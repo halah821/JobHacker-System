@@ -147,21 +147,21 @@ Task3:  **Bounce**
 ## week5
 
 **Exception Handling**
- >[Java Exceptions](https://www.javatpoint.com/exception-handling-in-java)
- >[Java Try-catch block](https://www.javatpoint.com/try-catch-block)
- >[Java Multiple Catch Block](https://www.javatpoint.com/multiple-catch-block-in-java)
- >[Java Nested try](https://www.javatpoint.com/nested-try-block)
- >[Java Finally Block](https://www.javatpoint.com/finally-block-in-exception-handling)
- >[Java Throw Keyword](https://www.javatpoint.com/throw-keyword)
- >[Java Exception Propagation](https://www.javatpoint.com/exception-propagation)
- >[Java Throws Keyword](https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws)
- >[Java Throw vs Throws](https://www.javatpoint.com/difference-between-throw-and-throws-in-java)
- >[Final vs Finally vs Finalize](https://www.javatpoint.com/difference-between-final-finally-and-finalize)
- >[Exception Handling with Method Overriding](https://www.javatpoint.com/exception-handling-with-method-overriding)
- >[Java Custom Exceptions](https://www.javatpoint.com/custom-exception)
- >[Exception Hand. quiz-1](https://www.javatpoint.com/directload.jsp?val=89)
- >[Exception Hand. quiz-2](https://www.javatpoint.com/directload.jsp?val=96)
- >[Exception Hand. quiz-3](https://www.javatpoint.com/directload.jsp?val=101)
+ > [Java Exceptions](https://www.javatpoint.com/exception-handling-in-java).
+ > [Java Try-catch block](https://www.javatpoint.com/try-catch-block).
+ > [Java Multiple Catch Block](https://www.javatpoint.com/multiple-catch-block-in-java).
+ > [Java Nested try](https://www.javatpoint.com/nested-try-block)
+ > [Java Finally Block](https://www.javatpoint.com/finally-block-in-exception-handling)
+ > [Java Throw Keyword](https://www.javatpoint.com/throw-keyword)
+ > [Java Exception Propagation](https://www.javatpoint.com/exception-propagation)
+ > [Java Throws Keyword](https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws)
+ > [Java Throw vs Throws](https://www.javatpoint.com/difference-between-throw-and-throws-in-java)
+ > [Final vs Finally vs Finalize](https://www.javatpoint.com/difference-between-final-finally-and-finalize)
+ > [Exception Handling with Method Overriding](https://www.javatpoint.com/exception-handling-with-method-overriding)
+ > [Java Custom Exceptions](https://www.javatpoint.com/custom-exception)
+ > [Exception Hand. quiz-1](https://www.javatpoint.com/directload.jsp?val=89)
+ > [Exception Hand. quiz-2](https://www.javatpoint.com/directload.jsp?val=96)
+ > [Exception Hand. quiz-3](https://www.javatpoint.com/directload.jsp?val=101)
 
 **Java I/O**
  [Java Input/Output](https://www.javatpoint.com/java-io)
@@ -246,21 +246,20 @@ note:*  We will have an exam after completing the Java topics.
 > [Collection Quiz-1](https://www.javatpoint.com/directload.jsp?val=92)
 
 > **Java ineterview questions  **
->[https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
->[https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
+> [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
+> [https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
 
 
 
 **Question:** why PriorityQueue neither maintain insertion order nor order elements? why I should implement comparable while it is incapable of keeping elements ordered ?  
 article says that it's an ordered list. I don't see this in the output of examples
-**Answer:**[@Hala Hussein]
-the main goal of the PriorityQueue is to retrieve the element with highest priority  
+> **Answer:**[@Hala Hussein] the main goal of the PriorityQueue is to retrieve the element with highest priority  
 this can be done by two ways:  
 
 -   store elements in linkedList and sorting all elements each time we insert element it take time Complicity O(n)
 -   store elements in a tree and retrieve the element with highest priority when needed take time complexity O(log(n))
 
-these two ways can be used in implementing priorityQueue but  
+> these two ways can be used in implementing priorityQueue but  
 the compiler implement choose the second way which is efficient, so when traversing across element you get only the first element with the highest priority and other element not sorted .  
 but when removing the highest priority element ,it do a O(log(n)) search to get the second element with the highest priorityresources :  
 [https://www.geeksforgeeks.org/priority-queue-set-1-introduction/](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
@@ -271,7 +270,7 @@ in our example :
 3.  queue.add("JaiShankar");
 4.  queue.add("Raj");
 
-when traversing to the PriorityQueue it always get the first highest priority element correct and other element get randomly  
+> when traversing to the PriorityQueue it always get the first highest priority element correct and other element get randomly  
 but when removing it work correctly and remove with the lower asci-code letter  
 first remove "Amit Sharma"  
 second remove "JaiShankar"  
@@ -288,20 +287,20 @@ the code used in the session
 Code 
 
 **بوست بيوضح ازاي اعمل ignore لبعض الملفات الي مش عاوز ارفعها علي GitHub**
-https://www.linkedin.com/posts/ahmed0saber_ahmed0saber-activity-7068173560178950144-UkZF?utm_source=share&utm_medium=member_android
+> https://www.linkedin.com/posts/ahmed0saber_ahmed0saber-activity-7068173560178950144-UkZF?utm_source=share&utm_medium=member_android
 
-**Question:**diffrence between G1 garbage collector , Epsilon garbage collector, ZGC garbage collector ?
-**Answer:**https://nitsbat.medium.com/epsilon-gc-and-zgc-new-garbage-collectors-in-jdk-11-5c23d19df454
+**Question:** diffrence between G1 garbage collector , Epsilon garbage collector, ZGC garbage collector ?
+> **Answer:** https://nitsbat.medium.com/epsilon-gc-and-zgc-new-garbage-collectors-in-jdk-11-5c23d19df454
 
-**Question:**what is the benfit of rethrow exception ?
-**Answer:**
+**Question:** what is the benfit of rethrow exception ?
+> **Answer:**
 هنفترض اننا عندنا Multi layered application  وهما  (application layer  , business layer, data access layer)   وانا عاوز مثلا لما يحصل exception في  layer من دول  ممكن handle exception في ال layer دي او throw exception في layer اللي اعلي مننها  مثلا لو انا retrieve  الداتا من الداتا بيز كده انا موجود في data access layer وحصل sqlException وليكن ممكن بقي  handle exception وممكن  throw Exception لل  layer اللي اعلي منها اللي هي business layer وكذلك الامر مع ال layer دي ممكن اعمل نفس الكلام ده
 
 
 
 البلاي ليست دي جميلة جدا كنت بذاكر منها مغطية أغلب الحاجات المهمة في ال MySQL
-https://www.youtube.com/watch?v=oPV2sjMG53U&list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ
+> https://www.youtube.com/watch?v=oPV2sjMG53U&list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ
 
 
 مقال جميل جدا عن .gitignore file:sparkles:
-https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
+> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
