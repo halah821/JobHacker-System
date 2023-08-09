@@ -69,44 +69,48 @@ Setup your development environment.
 ## week3
 
 **Java Object Class**
-[Java OOPs Concepts](https://www.javatpoint.com/java-oops-concepts)
-[Naming Convention](https://www.javatpoint.com/java-naming-conventions)
-[Object and Class](https://www.javatpoint.com/object-and-class-in-java)
-[Method](https://www.javatpoint.com/method-in-java)
-[Constructor](https://www.javatpoint.com/java-constructor)
-[static keyword](https://www.javatpoint.com/static-keyword-in-java)
-[this keyword](https://www.javatpoint.com/this-keyword)
+- [Java OOPs Concepts](https://www.javatpoint.com/java-oops-concepts)
+- [Naming Convention](https://www.javatpoint.com/java-naming-conventions)
+- [Object and Class](https://www.javatpoint.com/object-and-class-in-java)
+- [Method](https://www.javatpoint.com/method-in-java)
+- [Constructor](https://www.javatpoint.com/java-constructor)
+- [static keyword](https://www.javatpoint.com/static-keyword-in-java)
+- [this keyword](https://www.javatpoint.com/this-keyword)
 
 **Java Inheritance**
-[Inheritance(IS-A)](https://www.javatpoint.com/inheritance-in-java)
-[Aggregation(HAS-A)](https://www.javatpoint.com/aggregation-in-java)
+- [Inheritance(IS-A)](https://www.javatpoint.com/inheritance-in-java)
+- [Aggregation(HAS-A)](https://www.javatpoint.com/aggregation-in-java)
 
 **Java Polymorphism**
-[Method Overloading](https://www.javatpoint.com/method-overloading-in-java)
-[Method Overriding](https://www.javatpoint.com/method-overriding-in-java)
-[Covariant Return Type](https://www.javatpoint.com/covariant-return-type)
-[super keyword](https://www.javatpoint.com/super-keyword)
-[Instance Initializer block](https://www.javatpoint.com/instance-initializer-block)
-[final keyword](https://www.javatpoint.com/final-keyword)
-[Runtime Polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
-[Dynamic Binding](https://www.javatpoint.com/static-binding-and-dynamic-binding)
-[instanceof operator](https://www.javatpoint.com/downcasting-with-instanceof-operator)
+- [Method Overloading](https://www.javatpoint.com/method-overloading-in-java)
+- [Method Overriding](https://www.javatpoint.com/method-overriding-in-java)
+- [Covariant Return Type](https://www.javatpoint.com/covariant-return-type)
+- [super keyword](https://www.javatpoint.com/super-keyword)
+- [Instance Initializer block](https://www.javatpoint.com/instance-initializer-block)
+- [final keyword](https://www.javatpoint.com/final-keyword)
+- [Runtime Polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
+- [Dynamic Binding](https://www.javatpoint.com/static-binding-and-dynamic-binding)
+- [instanceof operator](https://www.javatpoint.com/downcasting-with-instanceof-operator)
 
 **Java Abstraction**
-[Abstract class](https://www.javatpoint.com/abstract-class-in-java)
-[Interface](https://www.javatpoint.com/interface-in-java)
-[Abstract vs Interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
+- [Abstract class](https://www.javatpoint.com/abstract-class-in-java)
+- [Interface](https://www.javatpoint.com/interface-in-java)
+- [Abstract vs Interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
 
 **Java Encapsulation**
-[Package](https://www.javatpoint.com/package)
-[Access Modifiers](https://www.javatpoint.com/access-modifiers)
-[Encapsulation](https://www.javatpoint.com/encapsulation)
+- [Package](https://www.javatpoint.com/package)
+- [Access Modifiers](https://www.javatpoint.com/access-modifiers)
+- [Encapsulation](https://www.javatpoint.com/encapsulation)
 
 **UML Diagram**
-[UML Diagram tutorial](https://www.tutorialspoint.com/uml/index.htm)
+- [UML Diagram tutorial](https://www.tutorialspoint.com/uml/index.htm)
 
 Recommend Arabic videos resource:  
-[https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv](https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv)  : [from #030 [JAVA] - Introduction to Object-Oriented Programming **to**  #063 [JAVA] - Java Enum]
+- [https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv](https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv)  : [from #030 [JAVA] - Introduction to Object-Oriented Programming **to**  #063 [JAVA] - Java Enum]
+
+
+> Clean code book from ch1 to ch7 :  [https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view](https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view)
+
 
 **Tasks**
 
@@ -195,7 +199,6 @@ Code Structure:
  - Make a function (getAverage) that will take a file and return an integer value representing the average of the values inside the file.
 
 
-
 ## week6
 In response to your request, we confirm that there are no new resources for Week 6. However,
 1-Please solve any problems regarding previous topics and tasks. If anyone has a problem, send a message in the chat for assistance.
@@ -244,6 +247,12 @@ note:*  We will have an exam after completing the Java topics.
 > [Java ConcurrentHashMap](https://www.javatpoint.com/java-concurrenthashmap)  
 > [Java ConcurrentLinkedQueue](https://www.javatpoint.com/java-concurrentlinkedqueue)  
 > [Collection Quiz-1](https://www.javatpoint.com/directload.jsp?val=92)
+>
+- Task1: https://drive.google.com/file/d/1rn295_TuKJdRZcFesjPrWWdJ45aSh36J/view?usp=drive_link
+- Task2: https://drive.google.com/file/d/1PYrBdfZ5a9sUECgCnyT2YjznYycIGzBE/view?usp=sharing
+
+ This is a Collection Session:
+-https://drive.google.com/file/d/1gFxdGLQ2Dh1WGc7Ce-n4SW-yd5TFNAZM/view?usp=sharing
 
 **Java ineterview questions  **
 - [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
@@ -304,3 +313,21 @@ the code used in the session
 
 مقال جميل جدا عن .gitignore file:sparkles:
 > https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
+
+
+
+OCP playlist
+- https://m.youtube.com/playlist?list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K
+
+Good website for interview questions
+- https://www.interviewbit.com/technical-interview-questions/
+
+
+The cheat sheet helps me a lot in remembering the syntax . I hope this is useful for you
+- https://www.linkedin.com/posts/yash-garg-5333a5215_java-cheet-sheet-activity-7076764331412963328--AmU?utm_source=share&utm_medium=member_ios
+
+Clean Code - Chapter 3 "Functions"
+- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing
+- Clean Code Book  "Error Handling Chapter " ppt
+Clean Code Presentation - (Ch01 to Ch07)
+- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing (edited) 
