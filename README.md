@@ -147,27 +147,27 @@ Task3:  **Bounce**
 ## week5
 
 **Exception Handling**
- > [Java Exceptions](https://www.javatpoint.com/exception-handling-in-java).
- > [Java Try-catch block](https://www.javatpoint.com/try-catch-block).
- > [Java Multiple Catch Block](https://www.javatpoint.com/multiple-catch-block-in-java).
- > [Java Nested try](https://www.javatpoint.com/nested-try-block)
- > [Java Finally Block](https://www.javatpoint.com/finally-block-in-exception-handling)
- > [Java Throw Keyword](https://www.javatpoint.com/throw-keyword)
- > [Java Exception Propagation](https://www.javatpoint.com/exception-propagation)
- > [Java Throws Keyword](https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws)
- > [Java Throw vs Throws](https://www.javatpoint.com/difference-between-throw-and-throws-in-java)
- > [Final vs Finally vs Finalize](https://www.javatpoint.com/difference-between-final-finally-and-finalize)
- > [Exception Handling with Method Overriding](https://www.javatpoint.com/exception-handling-with-method-overriding)
- > [Java Custom Exceptions](https://www.javatpoint.com/custom-exception)
- > [Exception Hand. quiz-1](https://www.javatpoint.com/directload.jsp?val=89)
- > [Exception Hand. quiz-2](https://www.javatpoint.com/directload.jsp?val=96)
- > [Exception Hand. quiz-3](https://www.javatpoint.com/directload.jsp?val=101)
+ - [Java Exceptions](https://www.javatpoint.com/exception-handling-in-java).
+ - [Java Try-catch block](https://www.javatpoint.com/try-catch-block).
+ - [Java Multiple Catch Block](https://www.javatpoint.com/multiple-catch-block-in-java).
+ - [Java Nested try](https://www.javatpoint.com/nested-try-block)
+ - [Java Finally Block](https://www.javatpoint.com/finally-block-in-exception-handling)
+ - [Java Throw Keyword](https://www.javatpoint.com/throw-keyword)
+ - [Java Exception Propagation](https://www.javatpoint.com/exception-propagation)
+ - [Java Throws Keyword](https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws)
+ - [Java Throw vs Throws](https://www.javatpoint.com/difference-between-throw-and-throws-in-java)
+ - [Final vs Finally vs Finalize](https://www.javatpoint.com/difference-between-final-finally-and-finalize)
+ - [Exception Handling with Method Overriding](https://www.javatpoint.com/exception-handling-with-method-overriding)
+ - [Java Custom Exceptions](https://www.javatpoint.com/custom-exception)
+ - [Exception Hand. quiz-1](https://www.javatpoint.com/directload.jsp?val=89)
+ - [Exception Hand. quiz-2](https://www.javatpoint.com/directload.jsp?val=96)
+ - [Exception Hand. quiz-3](https://www.javatpoint.com/directload.jsp?val=101)
 
 **Java I/O**
- [Java Input/Output](https://www.javatpoint.com/java-io)
- [FileOutputStream](https://www.javatpoint.com/java-fileoutputstream-class)
- [FileInputStream](https://www.javatpoint.com/java-fileinputstream-class)
- [java.util.Scanner](https://www.javatpoint.com/Scanner-class)
+ -[Java Input/Output](https://www.javatpoint.com/java-io)
+ - [FileOutputStream](https://www.javatpoint.com/java-fileoutputstream-class)
+ - [FileInputStream](https://www.javatpoint.com/java-fileinputstream-class)
+ -  [java.util.Scanner](https://www.javatpoint.com/Scanner-class)
 
 
 **Tasks**
@@ -245,9 +245,9 @@ note:*  We will have an exam after completing the Java topics.
 > [Java ConcurrentLinkedQueue](https://www.javatpoint.com/java-concurrentlinkedqueue)  
 > [Collection Quiz-1](https://www.javatpoint.com/directload.jsp?val=92)
 
-> **Java ineterview questions  **
-> [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
-> [https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
+**Java ineterview questions  **
+- [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
+- [https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
 
 
 
@@ -278,13 +278,13 @@ then let "Raj" to be the highest priority element
 
 
 **Collections Session**
-Hello Guys,
-hope you are doing well. this is a session that explain the Collections in java.
-hope this session helps you in your task.
-Happy Learning :relaxed:
-Java Collections Session
-the code used in the session
-Code 
+Hello Guys,  
+hope you are doing well. this is a session that explain the Collections in java.  
+hope this session helps you in your task.  
+Happy Learning ![:relaxed:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/263a-fe0f.png)  
+[Java Collections Session](https://drive.google.com/file/d/11bQjldSvjshYUc2SEqqIPHwcxbfCKL8e/view?usp=sharing)  
+the code used in the session  
+[Code](https://docs.google.com/document/d/1PBdOaZh6vB4W2nLpj9DBUEDt9L9bChOmUm9HUhZFymI/edit?usp=sharing)
 
 **بوست بيوضح ازاي اعمل ignore لبعض الملفات الي مش عاوز ارفعها علي GitHub**
 > https://www.linkedin.com/posts/ahmed0saber_ahmed0saber-activity-7068173560178950144-UkZF?utm_source=share&utm_medium=member_android
