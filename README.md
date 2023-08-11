@@ -143,6 +143,7 @@ Task3:  **Bounce**
  **Task3:**
   [OOP-Task1](https://docs.google.com/document/d/1TrZxPaMaJB9fpfW0dy5q92hJwnwWyhlL7-LBz0PhlQA/edit?usp=sharing) 
   [OOP-Task2](https://docs.google.com/document/d/1Cf2GD1_tTXYkmrTzHTCL7RGtYG9N_UeIFeSCMcVD7x0/edit)
+
  **Bonus**  
  **Task3**: write a program that print the number of occurrences of the given word in the string.  
  1. Perform the above task using only methods of the String class (Using 2 ways).
@@ -210,7 +211,7 @@ note:*  We will have an exam after completing the Java topics.
 
 
 
-## Week7   
+## Week7  & Week8
 > **Java Collections:**
 >  
 > [Collection Framework](https://www.javatpoint.com/collections-in-java)  
@@ -251,7 +252,8 @@ note:*  We will have an exam after completing the Java topics.
 - Task1: https://drive.google.com/file/d/1rn295_TuKJdRZcFesjPrWWdJ45aSh36J/view?usp=drive_link
 - Task2: https://drive.google.com/file/d/1PYrBdfZ5a9sUECgCnyT2YjznYycIGzBE/view?usp=sharing
 
- This is a Collection Session:
+ **This is a Collection Session:**
+ **Eng Asmaa**
 -https://drive.google.com/file/d/1gFxdGLQ2Dh1WGc7Ce-n4SW-yd5TFNAZM/view?usp=sharing
 
 **Java ineterview questions  **
@@ -263,30 +265,28 @@ note:*  We will have an exam after completing the Java topics.
 **Question:** why PriorityQueue neither maintain insertion order nor order elements? why I should implement comparable while it is incapable of keeping elements ordered ?  
 article says that it's an ordered list. I don't see this in the output of examples
 > **Answer:**[@Hala Hussein] the main goal of the PriorityQueue is to retrieve the element with highest priority  
-this can be done by two ways:  
+>this can be done by two ways:  
 
--   store elements in linkedList and sorting all elements each time we insert element it take time Complicity O(n)
--   store elements in a tree and retrieve the element with highest priority when needed take time complexity O(log(n))
+>-   store elements in linkedList and sorting all elements each time we insert element it take time Complicity O(n)
+>-   store elements in a tree and retrieve the element with highest priority when needed take time complexity O(log(n))
 
-> these two ways can be used in implementing priorityQueue but  
-the compiler implement choose the second way which is efficient, so when traversing across element you get only the first element with the highest priority and other element not sorted .  
-but when removing the highest priority element ,it do a O(log(n)) search to get the second element with the highest priorityresources :  
-[https://www.geeksforgeeks.org/priority-queue-set-1-introduction/](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
-in our example :  
+> these two ways can be used in implementing priorityQueue but  the compiler implement choose the second way which is efficient, so when traversing across element you get only the first element with the highest priority and other element not sorted .  but when removing the highest priority element ,it do a O(log(n)) search to get the second element with the highest priorityresources :  
+> [https://www.geeksforgeeks.org/priority-queue-set-1-introduction/](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
+>in our example :  
 
-1.  queue.add("Amit Sharma");
-2.  queue.add("Vijay Raj");
-3.  queue.add("JaiShankar");
-4.  queue.add("Raj");
+> 1.  queue.add("Amit Sharma");
+> 2.  queue.add("Vijay Raj");
+> 3.  queue.add("JaiShankar");
+> 4.  queue.add("Raj");
 
-> when traversing to the PriorityQueue it always get the first highest priority element correct and other element get randomly  
-but when removing it work correctly and remove with the lower asci-code letter  
-first remove "Amit Sharma"  
-second remove "JaiShankar"  
-then let "Raj" to be the highest priority element
+> when traversing to the PriorityQueue it always get the first highest priority element correct and other element get randomly, but when removing it work correctly and remove with the lower asci-code letter  
+> first remove "Amit Sharma"  
+> second remove "JaiShankar"  
+> then let "Raj" to be the highest priority element
 
 
-**Collections Session**
+**Collections Session** 
+**By Eng.Ahmed Salah**
 Hello Guys,  
 hope you are doing well. this is a session that explain the Collections in java.  
 hope this session helps you in your task.  
@@ -330,4 +330,144 @@ Clean Code - Chapter 3 "Functions"
 - https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing
 - Clean Code Book  "Error Handling Chapter " ppt
 Clean Code Presentation - (Ch01 to Ch07)
-- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing (edited) 
+- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing (edited)
+
+
+## Week9 & Week10:
+
+-   [Lambda Expressions (Java 8)](https://www.javatpoint.com/java-lambda-expressions)
+-   [Method References (Java 8)](https://www.javatpoint.com/java-8-method-reference)
+-   [Functional Interfaces (Java 8)](https://www.javatpoint.com/java-8-functional-interfaces)
+-   [Stream (Java 8)](https://www.javatpoint.com/java-8-stream)
+-   [Default Methods (Java 8)](https://www.javatpoint.com/java-default-methods)
+-   [forEach method(Java 8)](https://www.javatpoint.com/java-8-foreach)
+-   [Collectors(Java 8)](https://www.javatpoint.com/java-8-collectors)
+-   [StringJoiner(Java 8)](https://www.javatpoint.com/java-stringjoiner)
+-   [Optional class (Java 8)](https://www.javatpoint.com/java-8-optional)
+-   [Type Inference (Java 8)](https://www.javatpoint.com/java-8-type-inference)
+-   [Type annotations and repeating annotations (Java 8)](https://www.javatpoint.com/java-8-type-annotations-and-repeating-annotations)
+-   [Java 8 Date/Time API (Java 8)](https://www.javatpoint.com/java-date)
+-   [Method Parameter Reflection (Java 8)](https://www.javatpoint.com/java-8-method-parameter-reflection)
+  
+> **Tasks:** [https://docs.google.com/document/d/1q9_URMwbQwck6M2KP96RfMC62CSSiaVuHsdkAJQYBzI/edit](https://docs.google.com/document/d/1q9_URMwbQwck6M2KP96RfMC62CSSiaVuHsdkAJQYBzI/edit)  
+> **branch name:** Java8task
+
+**Colleague recommendation:**
+دي بلاى ليست لطيفه جدا والشرح فيها بجد لطيف بس هى english لو حد حاببها هى بجد ساعدتنى افهم حاجات كتير...
+[https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ](https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ)  
+
+
+**شرح كويس لبعض الحاجات في funtional interface**
+[https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB](https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB)  
+
+
+## Week11: 
+**Topic 1:**  
+Database Programming (MySQL) : [https://www.w3schools.com/mysql/default.asp](https://www.w3schools.com/mysql/default.asp)
+
+**MySQL  SQL**
+
+ - [MySQL SQL](https://www.w3schools.com/mysql/mysql_sql.asp)
+ - [MySQL SELECT](https://www.w3schools.com/mysql/mysql_select.asp)
+ - [MySQL WHERE](https://www.w3schools.com/mysql/mysql_where.asp)
+ - [MySQL AND, OR, NOT](https://www.w3schools.com/mysql/mysql_and_or.asp)
+ - [MySQL ORDER BY](https://www.w3schools.com/mysql/mysql_orderby.asp)
+ - [MySQL INSERT INTO](https://www.w3schools.com/mysql/mysql_insert.asp)
+ - [MySQL NULL Values](https://www.w3schools.com/mysql/mysql_null_values.asp)
+ - [MySQL UPDATE](https://www.w3schools.com/mysql/mysql_update.asp)
+ - [MySQL DELETE](https://www.w3schools.com/mysql/mysql_delete.asp)
+ - [MySQL LIMIT](https://www.w3schools.com/mysql/mysql_limit.asp)
+ - [MySQL MIN and MAX](https://www.w3schools.com/mysql/mysql_min_max.asp)
+ - [MySQL COUNT, AVG, SUM](https://www.w3schools.com/mysql/mysql_count_avg_sum.asp)
+ - [MySQL LIKE](https://www.w3schools.com/mysql/mysql_like.asp)
+ - [MySQL Wildcards](https://www.w3schools.com/mysql/mysql_wildcards.asp)
+ - [MySQL IN](https://www.w3schools.com/mysql/mysql_in.asp)
+ - [MySQL BETWEEN](https://www.w3schools.com/mysql/mysql_between.asp)
+ - [MySQL Aliases](https://www.w3schools.com/mysql/mysql_alias.asp)
+ - [MySQL Joins](https://www.w3schools.com/mysql/mysql_join.asp)
+ - [MySQL INNER JOIN](https://www.w3schools.com/mysql/mysql_join_inner.asp)
+ - [MySQL LEFT JOIN](https://www.w3schools.com/mysql/mysql_join_left.asp)
+ - [MySQL RIGHT JOIN](https://www.w3schools.com/mysql/mysql_join_right.asp)
+ - [MySQL CROSS JOIN](https://www.w3schools.com/mysql/mysql_join_cross.asp)
+ - [MySQL Self Join](https://www.w3schools.com/mysql/mysql_join_self.asp)
+ - [MySQL UNION](https://www.w3schools.com/mysql/mysql_union.asp)
+ - [MySQL GROUP BY](https://www.w3schools.com/mysql/mysql_groupby.asp)
+ - [MySQL HAVING](https://www.w3schools.com/mysql/mysql_having.asp)
+ - [MySQL EXISTS](https://www.w3schools.com/mysql/mysql_exists.asp)
+ - [MySQL ANY, ALL](https://www.w3schools.com/mysql/mysql_any_all.asp)
+ - [MySQL INSERT SELECT](https://www.w3schools.com/mysql/mysql_insert_into_select.asp)
+ - [MySQL CASE](https://www.w3schools.com/mysql/mysql_case.asp)
+ - [MySQL Null Functions](https://www.w3schools.com/mysql/mysql_ifnull.asp)
+ - [MySQL Comments](https://www.w3schools.com/mysql/mysql_comments.asp)
+ - [MySQL Operators](https://www.w3schools.com/mysql/mysql_operators.asp)  
+
+**MySQL  Database**
+
+ - [MySQL Create DB](https://www.w3schools.com/mysql/mysql_create_db.asp)
+ - [MySQL Drop DB](https://www.w3schools.com/mysql/mysql_drop_db.asp)
+ - [MySQL Create Table](https://www.w3schools.com/mysql/mysql_create_table.asp)
+ - [MySQL Drop Table](https://www.w3schools.com/mysql/mysql_drop_table.asp)
+ - [MySQL Alter Table](https://www.w3schools.com/mysql/mysql_alter.asp)
+ - [MySQL Constraints](https://www.w3schools.com/mysql/mysql_constraints.asp)
+ - [MySQL Not Null](https://www.w3schools.com/mysql/mysql_notnull.asp)
+ - [MySQL Unique](https://www.w3schools.com/mysql/mysql_unique.asp)
+ - [MySQL Primary Key](https://www.w3schools.com/mysql/mysql_primarykey.asp)
+ - [MySQL Foreign Key](https://www.w3schools.com/mysql/mysql_foreignkey.asp)
+ - [MySQL Check](https://www.w3schools.com/mysql/mysql_check.asp)
+ - [MySQL Default](https://www.w3schools.com/mysql/mysql_default.asp)
+ - [MySQL Create Index](https://www.w3schools.com/mysql/mysql_create_index.asp)
+ - [MySQL Auto Increment](https://www.w3schools.com/mysql/mysql_autoincrement.asp)
+ - [MySQL Dates](https://www.w3schools.com/mysql/mysql_dates.asp)
+ - [MySQL Views](https://www.w3schools.com/mysql/mysql_view.asp)  
+
+**MySQL  References**
+
+ - [MySQL Data Types](https://www.w3schools.com/mysql/mysql_datatypes.asp)
+ - [MySQL Functions](https://www.w3schools.com/mysql/mysql_ref_functions.asp)  
+
+**MySQL  Examples**
+
+ - [MySQL Examples](https://www.w3schools.com/mysql/mysql_examples.asp)
+ - [MySQL Editor](https://www.w3schools.com/mysql/mysql_editor.asp)
+ - [MySQL Quiz](https://www.w3schools.com/mysql/mysql_quiz.asp)
+ - [MySQL Exercises](https://www.w3schools.com/mysql/mysql_exercises.asp)
+ - [MySQL Certificate](https://www.w3schools.com/mysql/mysql_exam.asp)
+
+**Topic 2:**  
+
+> Java Database (JDBC):  
+> [JDBC Introduction](https://www.javatpoint.com/jdbc-tutorial)  
+> [JDBC Driver](https://www.javatpoint.com/jdbc-driver)  
+> [DB Connectivity Steps](https://www.javatpoint.com/steps-to-connect-to-the-database-in-java)  
+> [Connectivity with Oracle](https://www.javatpoint.com/example-to-connect-to-the-oracle-database)  
+> [Connectivity with MySQL](https://www.javatpoint.com/example-to-connect-to-the-mysql-database)  
+> [Access without DSN](https://www.javatpoint.com/connectivity-with-access-without-dsn)  
+> [DriverManager](https://www.javatpoint.com/DriverManager-class)  
+> [Connection](https://www.javatpoint.com/Connection-interface)  
+> [Statement](https://www.javatpoint.com/Statement-interface)  
+> [ResultSet](https://www.javatpoint.com/ResultSet-interface)  
+> [PreparedStatement](https://www.javatpoint.com/PreparedStatement-interface)  
+> [ResultSetMetaData](https://www.javatpoint.com/ResultSetMetaData-interface)  
+> [DatabaseMetaData](https://www.javatpoint.com/DatabaseMetaData-interface)  
+> [Store image](https://www.javatpoint.com/storing-image-in-oracle-database)  
+> [Retrieve image](https://www.javatpoint.com/retrieving-image-from-oracle-database)  
+> [Store file](https://www.javatpoint.com/storing-file-in-oracle-database)  
+> [Retrieve file](https://www.javatpoint.com/retrieving-file-from-oracle-database)  
+> [Transaction Management](https://www.javatpoint.com/transaction-management-in-jdbc)  
+> [Batch Processing](https://www.javatpoint.com/batch-processing-in-jdbc)  
+> [RowSet Interface](https://www.javatpoint.com/jdbc-rowset)  
+> [JDBC MCQ](https://www.javatpoint.com/jdbc-mcq)  
+> [JDBC Quiz-1](https://www.javatpoint.com/directload.jsp?val=93)  
+> [JDBC Quiz-2](https://www.javatpoint.com/directload.jsp?val=94)  
+> [JDBC Quiz-3](https://www.javatpoint.com/directload.jsp?val=95)
+
+>**Tasks:**  
+
+> [https://docs.google.com/document/d/1w7HEMjEj_47cuJWUTJ2mwBNB9-dAk2gNTeLnv7QpJIg/edit?usp=drive_link](https://docs.google.com/document/d/1w7HEMjEj_47cuJWUTJ2mwBNB9-dAk2gNTeLnv7QpJIg/edit?usp=drive_link)
+> **branch name:** JDBCTasks
+
+
+
+**Muhammed Safwat**
+JDBC playlist
+https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
