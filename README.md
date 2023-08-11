@@ -353,12 +353,12 @@ Clean Code Presentation - (Ch01 to Ch07)
 > **branch name:** Java8task
 
 **Colleague recommendation:**
-دي بلاى ليست لطيفه جدا والشرح فيها بجد لطيف بس هى english لو حد حاببها هى بجد ساعدتنى افهم حاجات كتير...
-[https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ](https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ)  
+**دي بلاى ليست لطيفه جدا والشرح فيها بجد لطيف بس هى english لو حد حاببها هى بجد ساعدتنى افهم حاجات كتير...**
+- [https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ](https://youtube.com/playlist?list=PLGRDMO4rOGcNXD2v76zM1nJybIwhBSwzZ)  
 
 
 **شرح كويس لبعض الحاجات في funtional interface**
-[https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB](https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB)  
+- [https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB](https://www.youtube.com/watch?v=lc7ljrTWZUY&list=PLGTDksrj8TisSN8RwfG1G3RqV_h4bongU&pp=iAQB)  
 
 
 ## Week11: 
