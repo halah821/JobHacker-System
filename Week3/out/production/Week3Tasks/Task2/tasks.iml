@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+<<<<<<<< HEAD:Week3/out/production/Week3Tasks/Task2/tasks.iml
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+========
+      <sourceFolder url="file://$MODULE_DIR$/Week1-Tasks" isTestSource="false" />
+>>>>>>>> origin/master:JobHacker-System.iml
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
