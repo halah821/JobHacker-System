@@ -1,0 +1,135 @@
+0- Test exiting App:
+           Scenario 1: choosing action 0 in the list of actions, to exit the system
+            Input : action: 0
+            Output: Process finished with exit code 0
+
+1- Test Adding a user:
+        Scenario 1: choose action 1 in the list,to create new user then enter the new user name.
+            Input: action: 1
+                   username: hala
+            Output: your User Account Created with this id:68
+
+        Scenario 2: choose action 1 in the list,to create new user then enter empty string.the message repeats until the user enters a name....
+            Input: action: 1
+                   username:
+            Output: Invalid username: please enter username:
+
+2- Test Removing a user:
+        Scenario 1: choose action 2 in the list,to remove user based on his Id.This action should be tested after performing test 1 Scenario 1.
+            Input: action: 2
+                   id: 68
+            Output: User Removed Successfully
+
+        Scenario 2: choose action 2 in the list,to remove user based on his Id. This action should be tested after performing "or based on" test 1 Scenario 1.
+                    This action will be performed with user Id that doesn't exist, There is no user object in the heap memory with this Id.
+                    Input: action: 2
+                           id: 65
+                    Output:Error:Invalid User Id
+
+                           Process finished with exit code 0
+
+        Scenario 3: choose action 2 in the list,to remove user based on his Id. This action will be chosen without adding
+                    any users(without performing test 2" before it). There is no users to remove
+            Input: rerun app
+                   action: 2
+                   id: 322
+            Output:Error:Invalid User Id
+
+                   Process finished with exit code 0
+
+3- Test adding a book:
+          Scenario 1: Adding a book with all required fields with correct data.
+             Input: action: 3
+                    Book: { title = 'hundred years of solitude',  author = ’marquez’,  version = '1'}
+             Output: your Book Added with this id:891
+
+         Scenario 2: Adding a book with invalid data, it keep repeating until user type valid version
+           Input:   action: 3
+                    Book: { title = 'myBook',  author = ’hala’,  version = '-1'}
+           Output: Invalid version, Please enter valid book version:
+
+4- Test Removing a book:
+         Scenario 1: Removing a book based on its Id.This action should be tested after performing test 3 Scenario 1.
+             Input: action: 4
+                    id: 891
+             Output: Book Removed Successfully
+
+         Scenario 2: Removing a book with invalid data. no such book Id exist in memory.
+             Input: action: 4
+                    id: 32
+             Output: Error: Invalid Book Id
+
+5- Test Checkout a book:
+        Scenario 1: user checkout a book based on the user Id and the book Id. This  scenario should be performed
+                    after chooseing action 1 "adding a user", then action 3 "adding a book".so you have a user and
+                    a book in memory to use in checkout...
+
+            Input: action : 1
+                   name: tamim
+            Output: your User Account Created with this id:112
+            Input: action : 3
+                    Book {title: "myBook", author: "hala", version: 1}
+            Output: your Book Added with this id:805
+            Input: action: 5
+                   borrowerId: 112
+                   BookId:805
+            Output: "User: tamim checkout this Book: myBook"
+
+        Scenario 2:making checkout with invalid data. choosing same scenario 1 steps but with wrong borrowerId and BookId after action 5.
+            Input: action: 5
+                   borrowerId: 32
+                   BookId: 43
+            Output: Error: Book Not Available OR Invalid Book Id OR Invalid User Id
+
+                    Process finished with exit code 0
+
+6- Test Return a book:
+        Scenario 1: This should be performed after test 5 scenario 1
+            Input: action : 6
+                   borrowerId: 112
+                   BookId:805
+            Output: "User: tamim Returned this Book: myBook"
+
+        Scenario 2: This should be performed after test 5 scenario 1 but with invalid data.
+            Input: action : 6
+                   borrowerId: 112
+                   BookId:805
+            Output: Error: Book Already Available OR Invalid Book Id OR Invalid User Id
+
+                    Process finished with exit code 0
+
+7- Test Display List of available books:
+        Scenario 1: This should be performed after test 3 sceario 1 multiple times
+            Input: action: 3
+                   Book: { title = 'hundred years of solitude',  author = ’marquez’,  version = '1'}
+            Output: your Book Added with this id:724
+            Input: action: 3
+                   Book: { title = 'myBook',  author = ’tamim’,  version = '1'}
+            Output: your Book Added with this id:875
+
+            Input: action: 3
+                   Book: { title = 'ocp practice',  author = ’scott selikoff’,  version = '1'}
+            Output: your Book Added with this id:450
+            Intput: action: 7
+            Output: List of Available Books:
+                    {book: hundred years of solitude, Author:marquez, Version:1.0}
+                    {book: myBook, Author:tamim, Version:1.0}
+                    {book: ocp practice, Author:scott selikoff, Version:1.0}
+        Scenario 2: Display list of Books when there is no available books in memory.without adding or returning any books.
+            Input: run app
+                   action:7
+            Output: No Books available,Please Add/Return some books
+8- Test Diplay List of borrowed books:
+        Scenario 1:
+            Input:
+            Output:
+        Scenario 2:
+            Input:
+            Output:
+9- Test Display details of a specific book:
+        Scenario 1:
+            Input:
+            Output:
+        Scenario 2:
+            Input:
+            Output:
