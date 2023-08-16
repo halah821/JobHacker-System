@@ -20,6 +20,32 @@ public class WordDictionary {
         Map<Alphabets,String> map=new HashMap<>();
 
         //fill map
+        fillMap(map);
+
+        //print All
+        printAll(map);
+
+        System.out.println("enter the letter");
+        Scanner sc =new Scanner(System.in);
+        String s = sc.nextLine();
+        for (Alphabets letter: Alphabets.values()){
+            if(letter.name().equals(s)){
+                printWord(map,letter);
+            }
+        }
+
+    }
+    public static void printAll(Map<Alphabets,String> map){
+        for (Map.Entry entry: map.entrySet()){
+            System.out.println(entry.getKey()+" "+entry.getValue());
+        }
+    }
+
+    public static void printWord(Map map,Alphabets key){
+        System.out.println(map.get(key).toString());
+    }
+
+    public static void fillMap(Map<Alphabets,String> map){
         map.put(Alphabets.A,Words.Ant.toString());
         map.put(Alphabets.B,Words.Bear.toString());
         map.put(Alphabets.C,Words.Cup.toString());
@@ -46,26 +72,5 @@ public class WordDictionary {
         map.put(Alphabets.X,Words.XRay.toString());
         map.put(Alphabets.Y,Words.Yoyo.toString());
         map.put(Alphabets.Z,Words.Zebra.toString());
-
-        //print All
-        printAll(map);
-
-        System.out.println("enter the letter");
-        Scanner sc =new Scanner(System.in);
-        String s = sc.nextLine();
-        for (Alphabets letter: Alphabets.values()){
-            if(letter.name().equals(s)){
-                printWord(map,letter);
-            }
-        }
-
-    }
-    public static void printAll(Map<Alphabets,String> map){
-        for (Map.Entry entry: map.entrySet()){
-            System.out.println(entry.getKey()+" "+entry.getValue());
-        }
-    }
-    public static void printWord(Map map,Alphabets key){
-        System.out.println(map.get(key).toString());
     }
 }
