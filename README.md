@@ -472,7 +472,7 @@ Database Programming (MySQL) : [https://www.w3schools.com/mysql/default.asp](htt
 JDBC playlist
 https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 
-##OCA & OCP Books Sessions
+# OCA & OCP Books Sessions
 - OCA 
 > - ch1:https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view
 > - ch2-part1:https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view
