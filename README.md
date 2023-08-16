@@ -473,7 +473,7 @@ JDBC playlist
 https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 
 # OCA & OCP Books Sessions
-- OCA 
+* OCA 
 > - ch1:https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view
 > - ch2-part1:https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view
 > - ch2-part2:
@@ -482,4 +482,6 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 > - ch3-part1:
 > - ch3-part2:
 > - ch4:https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
+* OCP
+  > -ch1 https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ
 
