@@ -483,5 +483,7 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 > - ch3-part2:
 > - ch4:https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
 * OCP
-  > -ch1 https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ
-
+  > -ch1 - with Ahmed Zahra
+  > https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ
+  > -ch3 - with Mahmoud Ali 
+  > https://drive.google.com/file/d/1PTIh8IJ-qddYy3Lyz6uJ-emvSfY6CA4t/view?usp=drive_link
