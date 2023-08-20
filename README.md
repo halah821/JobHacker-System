@@ -105,13 +105,6 @@ Setup your development environment.
 **UML Diagram**
 - [UML Diagram tutorial](https://www.tutorialspoint.com/uml/index.htm)
 
-Recommend Arabic videos resource:  
-- [https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv](https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv)  : [from #030 [JAVA] - Introduction to Object-Oriented Programming **to**  #063 [JAVA] - Java Enum]
-
-
-> Clean code book from ch1 to ch7 :  [https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view](https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view)
-
-
 **Tasks**
 
 [Task1](https://drive.google.com/file/d/1FAhR9NM2KS-ex0_7UugMhWiBGT5tIos0/view)
@@ -206,11 +199,6 @@ In response to your request, we confirm that there are no new resources for Week
 2-Study all the topics we took from the OCA & OCP Book and practice the questions at the end of each chapter.
 note:*  We will have an exam after completing the Java topics.
 
-## online Markdown Editor https://stackedit.io/
-
-
-
-
 ## Week7  & Week8
 > **Java Collections:**
 >  
@@ -255,17 +243,20 @@ note:*  We will have an exam after completing the Java topics.
  **This is a Collection Session:**
  **Eng Asmaa**
 -https://drive.google.com/file/d/1gFxdGLQ2Dh1WGc7Ce-n4SW-yd5TFNAZM/view?usp=sharing
-
-**Java ineterview questions  **
-- [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
-- [https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
-
-
+**Collections Session** 
+**By Eng.Ahmed Salah**
+Hello Guys,  
+hope you are doing well. this is a session that explain the Collections in java.  
+hope this session helps you in your task.  
+Happy Learning ![:relaxed:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/263a-fe0f.png)  
+[Java Collections Session](https://drive.google.com/file/d/11bQjldSvjshYUc2SEqqIPHwcxbfCKL8e/view?usp=sharing)  
+the code used in the session  
+[Code](https://docs.google.com/document/d/1PBdOaZh6vB4W2nLpj9DBUEDt9L9bChOmUm9HUhZFymI/edit?usp=sharing)
 
 **Question:** why PriorityQueue neither maintain insertion order nor order elements? why I should implement comparable while it is incapable of keeping elements ordered ?  
 article says that it's an ordered list. I don't see this in the output of examples
-> **Answer:**[@Hala Hussein] the main goal of the PriorityQueue is to retrieve the element with highest priority  
->this can be done by two ways:  
+> **Answer:** the main goal of the PriorityQueue is to retrieve the element with highest priority  
+> this can be done by two ways:  
 
 >-   store elements in linkedList and sorting all elements each time we insert element it take time Complicity O(n)
 >-   store elements in a tree and retrieve the element with highest priority when needed take time complexity O(log(n))
@@ -283,55 +274,6 @@ article says that it's an ordered list. I don't see this in the output of exampl
 > first remove "Amit Sharma"  
 > second remove "JaiShankar"  
 > then let "Raj" to be the highest priority element
-
-
-**Collections Session** 
-**By Eng.Ahmed Salah**
-Hello Guys,  
-hope you are doing well. this is a session that explain the Collections in java.  
-hope this session helps you in your task.  
-Happy Learning ![:relaxed:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/263a-fe0f.png)  
-[Java Collections Session](https://drive.google.com/file/d/11bQjldSvjshYUc2SEqqIPHwcxbfCKL8e/view?usp=sharing)  
-the code used in the session  
-[Code](https://docs.google.com/document/d/1PBdOaZh6vB4W2nLpj9DBUEDt9L9bChOmUm9HUhZFymI/edit?usp=sharing)
-
-**بوست بيوضح ازاي اعمل ignore لبعض الملفات الي مش عاوز ارفعها علي GitHub**
-> https://www.linkedin.com/posts/ahmed0saber_ahmed0saber-activity-7068173560178950144-UkZF?utm_source=share&utm_medium=member_android
-
-**Question:** diffrence between G1 garbage collector , Epsilon garbage collector, ZGC garbage collector ?
-> **Answer:** https://nitsbat.medium.com/epsilon-gc-and-zgc-new-garbage-collectors-in-jdk-11-5c23d19df454
-
-**Question:** what is the benfit of rethrow exception ?
-> **Answer:**
-هنفترض اننا عندنا Multi layered application  وهما  (application layer  , business layer, data access layer)   وانا عاوز مثلا لما يحصل exception في  layer من دول  ممكن handle exception في ال layer دي او throw exception في layer اللي اعلي مننها  مثلا لو انا retrieve  الداتا من الداتا بيز كده انا موجود في data access layer وحصل sqlException وليكن ممكن بقي  handle exception وممكن  throw Exception لل  layer اللي اعلي منها اللي هي business layer وكذلك الامر مع ال layer دي ممكن اعمل نفس الكلام ده
-
-
-
-البلاي ليست دي جميلة جدا كنت بذاكر منها مغطية أغلب الحاجات المهمة في ال MySQL
-> https://www.youtube.com/watch?v=oPV2sjMG53U&list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ
-
-
-مقال جميل جدا عن .gitignore file:sparkles:
-> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
-
-
-
-OCP playlist
-- https://m.youtube.com/playlist?list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K
-
-Good website for interview questions
-- https://www.interviewbit.com/technical-interview-questions/
-
-
-The cheat sheet helps me a lot in remembering the syntax . I hope this is useful for you
-- https://www.linkedin.com/posts/yash-garg-5333a5215_java-cheet-sheet-activity-7076764331412963328--AmU?utm_source=share&utm_medium=member_ios
-
-Clean Code - Chapter 3 "Functions"
-- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing
-- Clean Code Book  "Error Handling Chapter " ppt
-Clean Code Presentation - (Ch01 to Ch07)
-- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing (edited)
-
 
 ## Week9 & Week10:
 
@@ -466,8 +408,6 @@ Database Programming (MySQL) : [https://www.w3schools.com/mysql/default.asp](htt
 > [https://docs.google.com/document/d/1w7HEMjEj_47cuJWUTJ2mwBNB9-dAk2gNTeLnv7QpJIg/edit?usp=drive_link](https://docs.google.com/document/d/1w7HEMjEj_47cuJWUTJ2mwBNB9-dAk2gNTeLnv7QpJIg/edit?usp=drive_link)
 > **branch name:** JDBCTasks
 
-
-
 **Muhammed Safwat**
 JDBC playlist
 https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
@@ -481,12 +421,79 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 > - ch2-part4:
 > - ch3-part1:
 > - ch3-part2:
-> - ch4:https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
+> - ch4 : https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
 * OCP
 > - ch1 - with Ahmed Zahra. [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ]
 > - ch3 part1: with Mahmoud Ali [https://drive.google.com/file/d/1PTIh8IJ-qddYy3Lyz6uJ-emvSfY6CA4t/view?usp=drive_link]
 
-  
+#
+- OCP 11 Playlist By Laur Spilca
+[https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K](https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K)  
+
+
+
+
+# Clean Code Book sessions
+
+> Clean code book from ch1 to ch7 :  [https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view](https://drive.google.com/file/d/1_GcS4cO4i1KgG4IH4krJ6MUVYjFm_9z-/view)
+#
+Clean Code - Chapter 3 "Functions"
+- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing
+- Clean Code Book  "Error Handling Chapter " ppt
+#
+Clean Code Presentation - (Ch01 to Ch07)
+- https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing
+#
+@channel  Clean Code By Omar Ahmed  
+[https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB](https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB)
+# Final
+Clean Code Presentation - (Ch01 to Ch07)  
+[https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing](https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing)
+Clean Code sessions
+https://drive.google.com/drive/folders/1GQT-hikYJQ-jDoD3-atBmknIT2Kc3Xum
+#
+
+# SOLID sessions
+# Agile & scrum sessions
+# Spring sessions
+# Soft Skills sessions
+> - 2 Session of CVs:  [https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing](https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing)
+
+> - Session softskills today record‎: [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb](https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb)  
+> - Samples of mail body for jobs: [https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing](https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing)
+#
+Good website for interview questions
+- https://www.interviewbit.com/technical-interview-questions/
+#
+
+The cheat sheet helps me a lot in remembering the syntax . I hope this is useful for you
+- https://www.linkedin.com/posts/yash-garg-5333a5215_java-cheet-sheet-activity-7076764331412963328--AmU?utm_source=share&utm_medium=member_ios
+#
+
+Recommend Arabic videos resource:  
+- [https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv](https://www.youtube.com/playlist?list=PLCInYL3l2AagY7fFlhCrjpLiIFybW3yQv)  : [from #030 [JAVA] - Introduction to Object-Oriented Programming **to**  #063 [JAVA] - Java Enum]
+#
+
+**بوست بيوضح ازاي اعمل ignore لبعض الملفات الي مش عاوز ارفعها علي GitHub**
+> https://www.linkedin.com/posts/ahmed0saber_ahmed0saber-activity-7068173560178950144-UkZF?utm_source=share&utm_medium=member_android
+
+**Question:** diffrence between G1 garbage collector , Epsilon garbage collector, ZGC garbage collector ?
+> **Answer:** https://nitsbat.medium.com/epsilon-gc-and-zgc-new-garbage-collectors-in-jdk-11-5c23d19df454
+
+**Question:** what is the benfit of rethrow exception ?
+> **Answer:**
+هنفترض اننا عندنا Multi layered application  وهما  (application layer  , business layer, data access layer)   وانا عاوز مثلا لما يحصل exception في  layer من دول  ممكن handle exception في ال layer دي او throw exception في layer اللي اعلي مننها  مثلا لو انا retrieve  الداتا من الداتا بيز كده انا موجود في data access layer وحصل sqlException وليكن ممكن بقي  handle exception وممكن  throw Exception لل  layer اللي اعلي منها اللي هي business layer وكذلك الامر مع ال layer دي ممكن اعمل نفس الكلام ده
+
+
+
+البلاي ليست دي جميلة جدا كنت بذاكر منها مغطية أغلب الحاجات المهمة في ال MySQL
+> https://www.youtube.com/watch?v=oPV2sjMG53U&list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ
+
+
+مقال جميل جدا عن .gitignore file:sparkles:
+> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
+
+
 #
   Free Programming Notes for Professionals books  
  Java - Java EE - Spring _ Hibernate - and much more.  
@@ -504,7 +511,7 @@ Enjoy Watching ![:slightly_smiling_face:](https://a.slack-edge.com/production-st
 check this video: [https://www.linkedin.com/feed/update/urn:li:activity:7001851012768538624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7001851012768538624%29](https://www.linkedin.com/feed/update/urn:li:activity:7001851012768538624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7001851012768538624%29)
 #
 JobHacker Community:
-OOP: very Helpful (edited)
+OOP: very Helpful
 #
 Rest API by Spring boot.[https://www.linkedin.com/posts/moaaz-suliman-9169a5247_github-moaazsulimanrestfulapi-lostserverforpersons-activity-7084848244698021888-z8-s?utm_source=share&utm_medium=member_desktop](https://www.linkedin.com/posts/moaaz-suliman-9169a5247_github-moaazsulimanrestfulapi-lostserverforpersons-activity-7084848244698021888-z8-s?utm_source=share&utm_medium=member_desktop)  
 لينك الجيت هاب ف الاخر لو حد يبص عليه يستفاد
@@ -529,11 +536,7 @@ Memory in Java: توبيك دا مهم جدا تبقي عارف الذاكره �
 1-[https://www.youtube.com/watch?v=jzJjMefsFKE](https://www.youtube.com/watch?v=jzJjMefsFKE)  
 2-[https://www.linkedin.com/feed/update/urn:li:activity:7087106245932855296/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7087106245932855296%29](https://www.linkedin.com/feed/update/urn:li:activity:7087106245932855296/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7087106245932855296%29) (edited)
 #
-Clean Code Presentation - (Ch01 to Ch07)  
-[https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing](https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing)
-Clean Code sessions
-https://drive.google.com/drive/folders/1GQT-hikYJQ-jDoD3-atBmknIT2Kc3Xum
-#
+
 the meeting record for ( OCA ch2 & roadmap for Spring )  
 [https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view?usp=sharing](https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view?usp=sharing)
 #
@@ -552,9 +555,6 @@ Plugin for memorizing Shortcuts in IntelliJ![:orange_heart:](https://a.slack-edg
 دا برضو اللينك الاساسي بتاع الكورس  
 [https://sp23.datastructur.es/](https://sp23.datastructur.es/)  
 موجود فيه labs و projects و homeworks
-#
-@channel  Clean Code By Omar Ahmed  
-[https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB](https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB)
 #
 [https://www.linkedin.com/video/live/urn:li:ugcPost:7093622796001427456/](https://www.linkedin.com/video/live/urn:li:ugcPost:7093622796001427456/)
 #
@@ -580,15 +580,13 @@ OCA ch4 By Eng Mohamed Safwat...
 
 [Java OOP - Lesson 26 Inner Class and Anonymous Classes {جافا بالعربى}](https://youtu.be/YG8hGYNKeHY)
 #
-OCP 11 Playlist By Laur Spilca
-[https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K](https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K)  
-#
 O’Reilly Online Learning
 [Learning Java, 4th Edition](https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch08s09.html)
-الجزء ده مش مشروح كويس في الكتاب شفوه من هنا
+الجزء ده مش مشروح كويس في الكتاب شفوه من هنا generic methods
 #
-2 Session of CVs:  [https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing](https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing)
 
-Session softskills today record‎: [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb](https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb)  
-Samples of mail body for jobs: [https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing](https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing)
-#
+**Java ineterview questions  **
+- [https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29](https://www.linkedin.com/feed/update/urn:li:activity:6993767641551130624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6993767641551130624%29)  
+- [https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29](https://www.linkedin.com/feed/update/urn:li:activity:6987247068364828672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6987247068364828672%29)
+
+## online Markdown Editor https://stackedit.io/
