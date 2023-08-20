@@ -483,7 +483,112 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 > - ch3-part2:
 > - ch4:https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
 * OCP
-  > -ch1 - with Ahmed Zahra
-  > https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ
-  > -ch3 - with Mahmoud Ali 
-  > https://drive.google.com/file/d/1PTIh8IJ-qddYy3Lyz6uJ-emvSfY6CA4t/view?usp=drive_link
+> - ch1 - with Ahmed Zahra. [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ]
+> - ch3 part1: with Mahmoud Ali [https://drive.google.com/file/d/1PTIh8IJ-qddYy3Lyz6uJ-emvSfY6CA4t/view?usp=drive_link]
+
+  
+#
+  Free Programming Notes for Professionals books  
+ Java - Java EE - Spring _ Hibernate - and much more.  
+[https://www.linkedin.com/posts/nelsonamigoscode_softwaredeveloper-softwareengineering[…]870730719232-3qBD?utm_source=share&utm_medium=member_desktop](https://www.linkedin.com/posts/nelsonamigoscode_softwaredeveloper-softwareengineering-java-activity-7069288870730719232-3qBD?utm_source=share&utm_medium=member_desktop)
+#
+**ده فايل كنت عامله من فترة و انا بذاكر مجمع فيه اوامر ال SQL**  
+**افتحوه ب visual studio code افضل**  
+**بالتوفيق****![:sparkles:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/2728.png)****![:orange_heart:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f9e1.png)**
+#
+hello guys,  
+This is a video for the git merge conflict problem.  
+Enjoy Watching ![:slightly_smiling_face:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f642.png)  
+[https://drive.google.com/file/d/19mpL7VP8DEptOcdr39RZNB4o-cI7JtEe/view?usp=sharing](https://drive.google.com/file/d/19mpL7VP8DEptOcdr39RZNB4o-cI7JtEe/view?usp=sharing)
+#
+check this video: [https://www.linkedin.com/feed/update/urn:li:activity:7001851012768538624/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7001851012768538624%29](https://www.linkedin.com/feed/update/urn:li:activity:7001851012768538624/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7001851012768538624%29)
+#
+JobHacker Community:
+OOP: very Helpful (edited)
+#
+Rest API by Spring boot.[https://www.linkedin.com/posts/moaaz-suliman-9169a5247_github-moaazsulimanrestfulapi-lostserverforpersons-activity-7084848244698021888-z8-s?utm_source=share&utm_medium=member_desktop](https://www.linkedin.com/posts/moaaz-suliman-9169a5247_github-moaazsulimanrestfulapi-lostserverforpersons-activity-7084848244698021888-z8-s?utm_source=share&utm_medium=member_desktop)  
+لينك الجيت هاب ف الاخر لو حد يبص عليه يستفاد
+#
+JobHacker Community  [3:00 PM](https://jobhacker-community.slack.com/archives/C0501P0JYNS/p1689163220786069)  
+OOP:
+#
+Programmer Mindset:  
+[https://www.linkedin.com/feed/update/urn:li:activity:7067168812885835776/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7067168812885835776%29](https://www.linkedin.com/feed/update/urn:li:activity:7067168812885835776/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7067168812885835776%29)
+#
+أنا راجعت الريكورد اللي معايا و طالع كويس جدا  
+[https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view?usp=sharing](https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view?usp=sharing)
+https://jobhacker-community.slack.com/files/U0506TQDHS9/F05GVA3VAH4/jobhackers_oca_ch.1.mp4
+#
+Assignment of Object:
+
+image.png
+
+[https://youtu.be/tzSlGtTMvSI](https://youtu.be/tzSlGtTMvSI)
+#
+Memory in Java: توبيك دا مهم جدا تبقي عارف الذاكره بتشتغل ازاي  
+1-[https://www.youtube.com/watch?v=jzJjMefsFKE](https://www.youtube.com/watch?v=jzJjMefsFKE)  
+2-[https://www.linkedin.com/feed/update/urn:li:activity:7087106245932855296/?updateEntit[…]pdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7087106245932855296%29](https://www.linkedin.com/feed/update/urn:li:activity:7087106245932855296/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7087106245932855296%29) (edited)
+#
+Clean Code Presentation - (Ch01 to Ch07)  
+[https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing](https://docs.google.com/presentation/d/1WbniW_8oUJtMdEA5CVu5hxgaUQ0w89xrLG0ih7vvEgo/edit?usp=sharing)
+Clean Code sessions
+https://drive.google.com/drive/folders/1GQT-hikYJQ-jDoD3-atBmknIT2Kc3Xum
+#
+the meeting record for ( OCA ch2 & roadmap for Spring )  
+[https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view?usp=sharing](https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view?usp=sharing)
+#
+[https://printige.net/](https://printige.net/)
+printige.net
+[Printige Bookstore](https://printige.net/)
+Egypt's 1st bookstore for geeks
+لو حد حابب يشتري كتب بأسعار وكواليتي كويسه جدا
+#
+Plugin for memorizing Shortcuts in IntelliJ![:orange_heart:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f9e1.png)  
+[https://www.youtube.com/watch?v=CjN_rGH8hIY](https://www.youtube.com/watch?v=CjN_rGH8hIY)
+#
+دا كورس Data Structures بجافا من berkeley  
+[https://joshhug.gitbooks.io/hug61b/content/](https://joshhug.gitbooks.io/hug61b/content/)اول شوية محاضرات بيشرح basics في جافا بشكل سلس وفي حاجات advanced برضو شارحها كويس جدا  
+والكورس بيركز على حاجات زي ال design, debugging ,testing  
+دا برضو اللينك الاساسي بتاع الكورس  
+[https://sp23.datastructur.es/](https://sp23.datastructur.es/)  
+موجود فيه labs و projects و homeworks
+#
+@channel  Clean Code By Omar Ahmed  
+[https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB](https://www.youtube.com/watch?v=WnoZa933kq0&list=PLwWuxCLlF_ufTMlXoJlQvImqz9wIfcWsX&pp=iAQB)
+#
+[https://www.linkedin.com/video/live/urn:li:ugcPost:7093622796001427456/](https://www.linkedin.com/video/live/urn:li:ugcPost:7093622796001427456/)
+#
+[ LinkedIn: آزاي احسن الـ‫Soft skills](https://www.linkedin.com/video/live/urn:li:ugcPost:7093622796001427456/)
+#
+OCA | CH 4  
+Record Meeting Part Two: [OneDrive Link](https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EX7md1lCRftIu_vewlsJgBkBmykRvJq7brg8RaIsHP9MDg?e=tgFUdk)
+#
+محمد صفوت شرح Lambda Expression  
+فى تلت ساعة بطريقة جميل جدا فى المينتنج اللى فات  
+اللى حابب يشوف الجزىء دا منفصل هنا :  
+[https://drive.google.com/file/d/1UMADbWtBuxRHqRgqbvPbXapHs_93wSGe/view?usp=drive_link](https://drive.google.com/file/d/1UMADbWtBuxRHqRgqbvPbXapHs_93wSGe/view?usp=drive_link)
+#
+OCA ch2 part3 By Eng Mahmoud Ali...  
+[https://drive.google.com/file/d/1-hJ8p0uT5dohEvZIKQ1_HbSrbW399p8s/view?usp=drive_link](https://drive.google.com/file/d/1-hJ8p0uT5dohEvZIKQ1_HbSrbW399p8s/view?usp=drive_link)
+#
+OCA ch4 By Eng Mohamed Safwat...  
+[https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link](https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link)
+#
+[https://youtu.be/YG8hGYNKeHY](https://youtu.be/YG8hGYNKeHY)  الفرق بين ال nested classes
+
+ [Data Science and Software Engineering](https://www.youtube.com/@datascienceandsoftwareengi5342)
+
+[Java OOP - Lesson 26 Inner Class and Anonymous Classes {جافا بالعربى}](https://youtu.be/YG8hGYNKeHY)
+#
+OCP 11 Playlist By Laur Spilca
+[https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K](https://www.youtube.com/watch?v=on2Kdqe6tVU&list=PLEocw3gLFc8WMfp7fGqvWkQnBwC__Dv4K)  
+#
+O’Reilly Online Learning
+[Learning Java, 4th Edition](https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch08s09.html)
+الجزء ده مش مشروح كويس في الكتاب شفوه من هنا
+#
+2 Session of CVs:  [https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing](https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing)
+
+Session softskills today record‎: [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb](https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/ERiQ7we-38tDjE7NR3G4fWMBTpsA8yjYatscMSRk6mQtrQ?e=0Z4ssb)  
+Samples of mail body for jobs: [https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing](https://docs.google.com/document/d/1EFZtdqmbJq2ZgscTJkdLsxgjsbT6VMPByOsGlfhGkPA/edit?usp=sharing)
+#
