@@ -574,9 +574,9 @@ OCA ch2 part3 By Eng Mahmoud Ali...
 OCA ch4 By Eng Mohamed Safwat...  
 [https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link](https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link)
 #
-[https://youtu.be/YG8hGYNKeHY](https://youtu.be/YG8hGYNKeHY)  الفرق بين ال nested classes
+  الفرق بين ال nested classes
 
- [Data Science and Software Engineering](https://www.youtube.com/@datascienceandsoftwareengi5342)
+
 
 [Java OOP - Lesson 26 Inner Class and Anonymous Classes {جافا بالعربى}](https://youtu.be/YG8hGYNKeHY)
 #
