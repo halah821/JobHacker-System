@@ -412,6 +412,7 @@ Database Programming (MySQL) : [https://www.w3schools.com/mysql/default.asp](htt
 JDBC playlist
 https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 
+#Week12
 # OCA & OCP Books Sessions
 * OCA 
 > - ch1:https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view
@@ -453,9 +454,34 @@ Clean Code sessions
 https://drive.google.com/drive/folders/1GQT-hikYJQ-jDoD3-atBmknIT2Kc3Xum
 #
 
-# SOLID sessions
+
 # Agile & scrum sessions
+
+# week1
+> **Solid Principles**  
+> atricals:  
+> **[https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)**  
+> **[https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)**  
+> videos:  
+> **[https://lnkd.in/daaHPJF](https://lnkd.in/daaHPJF)**  
+> **[https://lnkd.in/dFB8FgNK](https://lnkd.in/dFB8FgNK)**
+>
+> 
+> **HTML & CSS:**  
+
+> HTML: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)  
+> CSS: [https://www.w3schools.com/w3css/defaulT.asp](https://www.w3schools.com/w3css/defaulT.asp)  
+> **Video Content:**  
+> [https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji](https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji)  
+> [https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe](https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe)
+
+
+# week2
+# Angular sessions
+
+# SOLID sessions
 # Spring sessions
+
 # Soft Skills sessions
 > - 2 Session of CVs:  [https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing](https://drive.google.com/drive/folders/1niQRKy6EPZzvVbL_h-hPq76e_35JU1Pr?usp=sharing)
 
