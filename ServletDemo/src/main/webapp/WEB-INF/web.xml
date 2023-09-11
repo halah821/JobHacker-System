@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+ 
+ 
+ <servlet>
+ 	<servlet-name>abc</servlet-name>
+ 	<servlet-class>com.hala.examples.AddServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>abc</servlet-name>
+ 	<url-pattern>/add</url-pattern>
+ </servlet-mapping>
+ 
+ 
+  <servlet>
+ 	<servlet-name>pqr</servlet-name>
+ 	<servlet-class>com.hala.examples.sqrServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>pqr</servlet-name>
+ 	<url-pattern>/sq</url-pattern>
+ </servlet-mapping>
+ 
+ <context-param>
+ <param-name>name</param-name>
+ <param-value>Hala</param-value>
+ </context-param>
+ 
+  <context-param>
+ <param-name>phone</param-name>
+ <param-value>Nokia</param-value>
+ </context-param>
+ 
+ 
+</web-app>
