@@ -417,15 +417,23 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 * OCA 
 > - ch1:https://drive.google.com/file/d/1UaLAZZW6yIr_gosn5celEPZkYY0V14kB/view
 > - ch2-part1:https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view
-> - ch2-part2:
-> - ch2-part3:https://drive.google.com/file/d/1-hJ8p0uT5dohEvZIKQ1_HbSrbW399p8s/view?usp=drive_link
-> - ch2-part4:
-> - ch3-part1:
-> - ch3-part2:
+> - ch2-part2:https://drive.google.com/file/d/1-hJ8p0uT5dohEvZIKQ1_HbSrbW399p8s/view?usp=drive_link
+> - ch2-part3:
+> - ch3-part1:Hala Hussein
+> - ch3-part2:Hala Hussein
 > - ch4 : https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
+> - ch5 :Mohamed Gamal:
+> - ch6 : Amira
 * OCP
 > - ch1 - with Ahmed Zahra. [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/amir_ibrahim_el-eng_menofia_edu_eg/EcXHe7_PpIBNtU5UT7BCnAoBcqFBAQtLLbuLTmIUIuF8VQ]
+> - ch2 :Hala Hussein
 > - ch3 part1: with Mahmoud Ali [https://drive.google.com/file/d/1PTIh8IJ-qddYy3Lyz6uJ-emvSfY6CA4t/view?usp=drive_link]
+> - ch3 part2:Hala Hussein
+> - ch4 part1: with Abd ElRahman Elfiky [https://elengmenofiaedu-my.sharepoint.com/:v:/g/personal/1900193_el-eng_menofia_edu_eg/EY-GeTNlQS5DiVeymZcssHsBysW-Ac7NdzFUjcBIzn4hLw?e=nhkSBr]
+> - ch4 part2: with Abd ElRahman Elfiky [https://drive.google.com/file/d/19hC92fOHZdyA6YDf7GjdbOVbnlskRV_C/view?usp=sharing]
+> - ch5: Mohamed Abd ElGawad
+> - ch10: Mohamed Safwat:
+
 
 #
 - OCP 11 Playlist By Laur Spilca
