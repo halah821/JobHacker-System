@@ -419,8 +419,8 @@ https://www.youtube.com/playlist?list=PLEAQNNR8IlB4R7NfqBY1frapYo97L6fOQ
 > - ch2-part1:https://drive.google.com/file/d/1BeerDgHt24S71icVK_Hj566bKXdX4I3r/view
 > - ch2-part2:https://drive.google.com/file/d/1-hJ8p0uT5dohEvZIKQ1_HbSrbW399p8s/view?usp=drive_link
 > - ch2-part3:
-> - ch3-part1:Hala Hussein :https://drive.google.com/file/d/1LIu72OjrpsRMfhqPfJzMUKy6oS4wCMYK/view?usp=drive_link
-> - ch3-part2:Hala Hussein
+> - ch3-part1:Hala Hussein : https://drive.google.com/file/d/1LIu72OjrpsRMfhqPfJzMUKy6oS4wCMYK/view?usp=drive_link
+> - ch3-part2:Hala Hussein : https://drive.google.com/file/d/1N4yK9bJPWCyohfVICV4MT2LFm3wjxyO5/view?usp=drive_link
 > - ch4 : https://drive.google.com/file/d/17WavWuuBOjsy5k36Js8Jx7Jrrws7-WMb/view?usp=drive_link
 > - ch5 :Mohamed Gamal: https://drive.google.com/file/d/1Ywjopt375sGdI0Z2xEmp5gsV1-8wcHzu/view
 > - ch6 : Amira
